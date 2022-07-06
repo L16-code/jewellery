@@ -4,6 +4,8 @@
 
 <?= $this->section('content') ?>
 
+<!--<?php echo "<pre>"; print_r($name); echo "</pre>"; ?> -->
+
 <div class="search-area">
 		<div class="container">
 			<div class="row">

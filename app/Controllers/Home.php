@@ -7,7 +7,10 @@ class Home extends BaseController
     public function index()
     {
         //return view('index');
-        return view('pages/'."index");
+        
+        $Userlist = new \App\Models\UserModel;
+        $data = $Userlist->findAll(); 
+        return view('pages/index',['name' => $data]);
     }
     public function about()
     {

@@ -27,9 +27,9 @@
 	<!-- mean menu css -->
 	<link rel="stylesheet" href="assets/css/meanmenu.min.css">
 	<!-- main style -->
-	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/main.css" >
 	<!-- responsive -->
-	<link rel="stylesheet" href="assets/css/responsive.css">
+	<link rel="stylesheet" href="/assets/css/responsive.css">
 	
 
 </head>

@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Controllers;
+use App\Models\UserModel;
 
 class Home extends BaseController
 {
@@ -8,9 +9,10 @@ class Home extends BaseController
     {
         //return view('index');
         
-        $Userlist = new \App\Models\UserModel;
+        $Userlist = new UserModel;
         $data = $Userlist->findAll(); 
         return view('pages/index',['name' => $data]);
+
     }
     public function about()
     {

@@ -20,3 +20,147 @@ in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
  6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
  7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 12:20:05 --> Invalid file: admin/pages/ components-accordion.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/ components-accordion.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/ components-accordion', [], true)
+ 3 APPPATH\Controllers\Admin.php(37): view('admin/pages/ components-accordion')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->accordion()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 12:20:40 --> Invalid file: admin/pages/ charts-apexcharts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/ charts-apexcharts.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/ charts-apexcharts', [], true)
+ 3 APPPATH\Controllers\Admin.php(25): view('admin/pages/ charts-apexcharts')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->apexcharts()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 12:27:42 --> Invalid file: admin/pages/ charts-apexcharts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/ charts-apexcharts.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/ charts-apexcharts', [], true)
+ 3 APPPATH\Controllers\Admin.php(25): view('admin/pages/ charts-apexcharts')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->apexcharts()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 12:27:44 --> Invalid file: admin/pages/ charts-apexcharts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/ charts-apexcharts.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/ charts-apexcharts', [], true)
+ 3 APPPATH\Controllers\Admin.php(25): view('admin/pages/ charts-apexcharts')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->apexcharts()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 12:27:44 --> Invalid file: admin/pages/ charts-apexcharts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/ charts-apexcharts.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/ charts-apexcharts', [], true)
+ 3 APPPATH\Controllers\Admin.php(25): view('admin/pages/ charts-apexcharts')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->apexcharts()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 12:27:44 --> Invalid file: admin/pages/ charts-apexcharts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/ charts-apexcharts.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/ charts-apexcharts', [], true)
+ 3 APPPATH\Controllers\Admin.php(25): view('admin/pages/ charts-apexcharts')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->apexcharts()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 12:27:45 --> Invalid file: admin/pages/ charts-apexcharts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/ charts-apexcharts.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/ charts-apexcharts', [], true)
+ 3 APPPATH\Controllers\Admin.php(25): view('admin/pages/ charts-apexcharts')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->apexcharts()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 12:27:45 --> Invalid file: admin/pages/ charts-apexcharts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/ charts-apexcharts.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/ charts-apexcharts', [], true)
+ 3 APPPATH\Controllers\Admin.php(25): view('admin/pages/ charts-apexcharts')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->apexcharts()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 12:27:45 --> Invalid file: admin/pages/ charts-apexcharts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/ charts-apexcharts.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/ charts-apexcharts', [], true)
+ 3 APPPATH\Controllers\Admin.php(25): view('admin/pages/ charts-apexcharts')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->apexcharts()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 12:27:45 --> Invalid file: admin/pages/ charts-apexcharts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/ charts-apexcharts.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/ charts-apexcharts', [], true)
+ 3 APPPATH\Controllers\Admin.php(25): view('admin/pages/ charts-apexcharts')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->apexcharts()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 12:27:45 --> Invalid file: admin/pages/ charts-apexcharts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/ charts-apexcharts.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/ charts-apexcharts', [], true)
+ 3 APPPATH\Controllers\Admin.php(25): view('admin/pages/ charts-apexcharts')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->apexcharts()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 12:28:37 --> Invalid file: admin/pages/ components-alerts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/ components-alerts.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/ components-alerts', [], true)
+ 3 APPPATH\Controllers\Admin.php(42): view('admin/pages/ components-alerts')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->alerts()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 12:36:28 --> Invalid file: admin/pages/ pages-register.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/ pages-register.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/ pages-register', [], true)
+ 3 APPPATH\Controllers\Admin.php(162): view('admin/pages/ pages-register')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->register()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 12:36:41 --> Invalid file: admin/pages/ pages-register.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/ pages-register.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/ pages-register', [], true)
+ 3 APPPATH\Controllers\Admin.php(162): view('admin/pages/ pages-register')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->register()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 12:37:19 --> Invalid file: admin/pages/ components-accordion.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/ components-accordion.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/ components-accordion', [], true)
+ 3 APPPATH\Controllers\Admin.php(37): view('admin/pages/ components-accordion')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->accordion()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 12:44:20 --> Invalid file: admin/pages/ pages-faq.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/ pages-faq.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/ pages-faq', [], true)
+ 3 APPPATH\Controllers\Admin.php(157): view('admin/pages/ pages-faq')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->faq()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

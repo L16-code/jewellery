@@ -50,4 +50,12 @@ class Home extends BaseController
     {
         return view('user/pages/'."single-product");
     }
+    public function login()
+    {
+        return view('user/pages/'."login");
+    }
+    public function register()
+    {
+        return view('user/pages/'."register");
+    }
 }

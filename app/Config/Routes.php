@@ -36,7 +36,7 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
-//$routes->get('/index', 'Home::index');
+$routes->get('/index', 'Home::index');
 $routes->get('/about', 'Home::about');
 $routes->get('/contact', 'Home::contact');
 $routes->get('/cart', 'Home::cart');
@@ -46,6 +46,65 @@ $routes->get('/news', 'Home::news');
 $routes->get('/shop', 'Home::shop');
 $routes->get('/single-news', 'Home::single_news');
 $routes->get('/single-product', 'Home::single_product');
+$routes->get('/login', 'Home::login');
+$routes->get('/register', 'Home::register');
+
+
+
+
+// routes for user login
+$routes->post('/login', 'Register::userSignup');
+$routes->post('/index', 'Login::login');
+//end routes for user login
+
+
+
+
+
+// routes for admin starts here
+$routes->get('/admin', 'Admin::index');
+$routes->get('/pages-login', 'Admin::login');
+$routes->get('/apexcharts', 'Admin::charts-apexcharts');
+$routes->get('/chartjs', 'Admin::charts-chartjs');
+$routes->get('/echarts', 'Admin::charts-echarts');
+$routes->get('/accordion', 'Admin::components-accordion');
+$routes->get('/alerts', 'Admin::components-alerts');
+$routes->get('/badges', 'Admin::components-badges');
+$routes->get('/breadcrumbs', 'Admin::components-breadcrumbs');
+$routes->get('/buttons', 'Admin::components-buttons');
+$routes->get('/cards', 'Admin::components-cards');
+$routes->get('/carousel', 'Admin::components-carousel');
+$routes->get('/group', 'Admin::components-list-group');
+$routes->get('/modal', 'Admin::components-modal');
+$routes->get('/pagination', 'Admin::components-pagination');
+$routes->get('/progress', 'Admin::components-progress');
+$routes->get('/spinners', 'Admin::components-spinners');
+$routes->get('/tabs', 'Admin::components-tabs');
+$routes->get('/tooltips', 'Admin::components-tooltips');
+$routes->get('/editors', 'Admin::forms-editors');
+$routes->get('/elements', 'Admin::forms-elements');
+$routes->get('/layouts', 'Admin::forms-layouts');
+$routes->get('/validation', 'Admin::forms-validation');
+$routes->get('/bootstrap', 'Admin::forms-bootstrap');
+$routes->get('/boxicons', 'Admin::icons-boxicons');
+$routes->get('/remix', 'Admin::icons-remix');
+$routes->get('/blank', 'Admin::pages-blank');
+$routes->get('/contact', 'Admin::pages-contact');
+$routes->get('/faq', 'Admin::pages-faq');
+$routes->get('/register', 'Admin::pages-register');
+$routes->get('/error', 'Admin::pages-404-error');
+
+
+
+
+
+
+
+
+
+
+
+// routes for admin ends here
 
 /*
  * --------------------------------------------------------------------

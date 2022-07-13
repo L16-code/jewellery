@@ -1,0 +1,130 @@
+CRITICAL - 2022-07-12 02:49:27 --> unlink(C:\xampp2\htdocs\jewellery\writable\debugbar/debugbar_1657526073.604212.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp2\\htdocs\\jewellery\\writable\\debugbar/debugbar_1657526073.604212.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1657526073.604212.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1657612166.740516', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(326): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 02:57:41 --> Invalid file: user/pages/page-login.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/pages/page-login.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pages/page-login', [], true)
+ 3 APPPATH\Controllers\Home.php(55): view('user/pages/page-login')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->login()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-12 04:49:12 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2022-07-12 04:49:12 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `customer` (`customer_name`, `customer_password`, `customer_username`) VALUES (\'Colin Peterson\', \'f3ed11bbdb94fd9ebdefbaf646ab94d3\', \'zutacexes\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `customer` (`customer_name`, `customer_password`, `customer_username`) VALUES (\'Colin Peterson\', \'f3ed11bbdb94fd9ebdefbaf646ab94d3\', \'zutacexes\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `customer` (`customer_name`, `customer_password`, `customer_username`) VALUES (\'Colin Peterson\', \'f3ed11bbdb94fd9ebdefbaf646ab94d3\', \'zutacexes\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customer` (`customer_name`, `customer_password`, `customer_username`) VALUES (:customer_name:, :customer_password:, :customer_username:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Register.php(36): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->userSignup()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 04:50:00 --> Undefined variable: name
+in APPPATH\Views\user\pages\index.php on line 7.
+ 1 APPPATH\Views\user\pages\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: name', 'APPPATH\\Views\\user\\pages\\index.php', 7, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pages/index', [], true)
+ 5 APPPATH\Controllers\Register.php(43): view('user/pages/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->userSignup()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 05:23:28 --> Invalid file: public/user/template/header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public/user/template/header.php')
+ 2 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('public/user/template/header', null, true)
+ 3 APPPATH\Views\user\template\default.php(46): CodeIgniter\View\View->include('public/user/template/header')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\template\\default.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('user/template/default', [], true)
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pages/index', [], true)
+ 8 APPPATH\Controllers\Home.php(14): view('user/pages/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 05:39:18 --> Invalid file: public/user/template/header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public/user/template/header.php')
+ 2 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('public/user/template/header', null, true)
+ 3 APPPATH\Views\user\pages\shop.php(45): CodeIgniter\View\View->include('public/user/template/header')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\shop.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pages/shop', [], true)
+ 7 APPPATH\Controllers\Home.php(43): view('user/pages/shop')
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->shop()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 05:39:27 --> Invalid file: public/user/template/header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public/user/template/header.php')
+ 2 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('public/user/template/header', null, true)
+ 3 APPPATH\Views\user\pages\shop.php(45): CodeIgniter\View\View->include('public/user/template/header')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\shop.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pages/shop', [], true)
+ 7 APPPATH\Controllers\Home.php(43): view('user/pages/shop')
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->shop()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 06:04:33 --> Invalid file: pages/register.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/register.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/register', [], true)
+ 3 APPPATH\Controllers\Register.php(29): view('pages/register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->userSignup()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 06:05:10 --> Invalid file: pages/pages-register.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages-register.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/pages-register', [], true)
+ 3 APPPATH\Controllers\Register.php(29): view('pages/pages-register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->userSignup()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 06:05:13 --> Invalid file: pages/pages-register.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages-register.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/pages-register', [], true)
+ 3 APPPATH\Controllers\Register.php(29): view('pages/pages-register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->userSignup()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 06:05:33 --> Invalid file: pages/pages-register.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages-register.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/pages-register', [], true)
+ 3 APPPATH\Controllers\Register.php(29): view('pages/pages-register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->userSignup()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 06:06:38 --> Invalid file: pages/pages-register.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages-register.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/pages-register', [], true)
+ 3 APPPATH\Controllers\Register.php(29): view('pages/pages-register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->userSignup()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

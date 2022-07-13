@@ -8,7 +8,7 @@
 						<!-- logo -->
 						<div class="site-logo">
 							<a href="">
-								<img src="assets/img/logo.png" alt="">
+								<img src="public/user/assets/img/logo.png" alt="">
 							</a>
 						</div>
 						<!-- logo -->
@@ -32,8 +32,12 @@
 										<li><a href="contact">Contact</a></li>
 										<li><a href="news">News</a></li>
 										<li><a href="shop">Shop</a></li>
+                                        <li><a href="login">login</a></li>
+                                        
+
 									</ul>
 								</li>
+                                <li><a href="register">register</a></li>
 								<li><a href="news">News</a>
 									<ul class="sub-menu">
 										<li><a href="news">News</a></li>

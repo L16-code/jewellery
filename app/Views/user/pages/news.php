@@ -10,26 +10,26 @@
 	<title>News</title>
 
 	<!-- favicon -->
-	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+	<link rel="shortcut icon" type="image/png" href="<?php echo base_url('public/user/assets/img/favicon.png');?>">
 	<!-- google font -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
 	<!-- fontawesome -->
-	<link rel="stylesheet" href="assets/css/all.min.css">
+	<link rel="stylesheet" href="<?php echo base_url('public/user/assets/css/all.min.css');?>">
 	<!-- bootstrap -->
-	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?php echo base_url('public/user/assets/bootstrap/css/bootstrap.min.css');?>">
 	<!-- owl carousel -->
-	<link rel="stylesheet" href="assets/css/owl.carousel.css">
+	<link rel="stylesheet" href="<?php echo base_url('public/user/assets/css/owl.carousel.css');?>">
 	<!-- magnific popup -->
-	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<link rel="stylesheet" href="<?php echo base_url('public/user/assets/css/magnific-popup.css');?>">
 	<!-- animate css -->
-	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="<?php echo base_url('public/user/assets/css/animate.css');?>">
 	<!-- mean menu css -->
-	<link rel="stylesheet" href="assets/css/meanmenu.min.css">
+	<link rel="stylesheet" href="<?php echo base_url('public/user/assets/css/meanmenu.min.css');?>">
 	<!-- main style -->
-	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="<?php echo base_url('public/user/assets/css/main.css');?>">
 	<!-- responsive -->
-	<link rel="stylesheet" href="assets/css/responsive.css">
+	<link rel="stylesheet" href="<?php echo base_url('public/user/assets/css/responsive.css');?>">
 
 </head>
 <body>
@@ -90,7 +90,7 @@
 						<div class="news-text-box">
 							<h3><a href="single-news">You will vainly look for fruit on it in autumn.</a></h3>
 							<p class="blog-meta">
-								<span class="author"><i class="fas fa-user"></i> Admin</span>
+								<span class="author"><i class="fas fa-public/user"></i> Admin</span>
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2019</span>
 							</p>
 							<p class="excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus laborum autem, dolores inventore, beatae nam.</p>
@@ -104,7 +104,7 @@
 						<div class="news-text-box">
 							<h3><a href="single-news">A man's worth has its season, like tomato.</a></h3>
 							<p class="blog-meta">
-								<span class="author"><i class="fas fa-user"></i> Admin</span>
+								<span class="author"><i class="fas fa-public/user"></i> Admin</span>
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2019</span>
 							</p>
 							<p class="excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus laborum autem, dolores inventore, beatae nam.</p>
@@ -118,7 +118,7 @@
 						<div class="news-text-box">
 							<h3><a href="single-news">Good thoughts bear good fresh juicy fruit.</a></h3>
 							<p class="blog-meta">
-								<span class="author"><i class="fas fa-user"></i> Admin</span>
+								<span class="author"><i class="fas fa-public/user"></i> Admin</span>
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2019</span>
 							</p>
 							<p class="excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus laborum autem, dolores inventore, beatae nam.</p>
@@ -132,7 +132,7 @@
 						<div class="news-text-box">
 							<h3><a href="single-news">Fall in love with the fresh orange</a></h3>
 							<p class="blog-meta">
-								<span class="author"><i class="fas fa-user"></i> Admin</span>
+								<span class="author"><i class="fas fa-public/user"></i> Admin</span>
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2019</span>
 							</p>
 							<p class="excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus laborum autem, dolores inventore, beatae nam.</p>
@@ -146,7 +146,7 @@
 						<div class="news-text-box">
 							<h3><a href="single-news">Why the berries always look delecious</a></h3>
 							<p class="blog-meta">
-								<span class="author"><i class="fas fa-user"></i> Admin</span>
+								<span class="author"><i class="fas fa-public/user"></i> Admin</span>
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2019</span>
 							</p>
 							<p class="excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus laborum autem, dolores inventore, beatae nam.</p>
@@ -160,7 +160,7 @@
 						<div class="news-text-box">
 							<h3><a href="single-news">Love for fruits are genuine of John Doe</a></h3>
 							<p class="blog-meta">
-								<span class="author"><i class="fas fa-user"></i> Admin</span>
+								<span class="author"><i class="fas fa-public/user"></i> Admin</span>
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2018</span>
 							</p>
 							<p class="excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus laborum autem, dolores inventore, beatae nam.</p>
@@ -198,19 +198,19 @@
 				<div class="col-lg-12">
 					<div class="logo-carousel-inner">
 						<div class="single-logo-item">
-							<img src="assets/img/company-logos/1.png" alt="">
+							<img src="public/user/assets/img/company-logos/1.png" alt="">
 						</div>
 						<div class="single-logo-item">
-							<img src="assets/img/company-logos/2.png" alt="">
+							<img src="public/user/assets/img/company-logos/2.png" alt="">
 						</div>
 						<div class="single-logo-item">
-							<img src="assets/img/company-logos/3.png" alt="">
+							<img src="public/user/assets/img/company-logos/3.png" alt="">
 						</div>
 						<div class="single-logo-item">
-							<img src="assets/img/company-logos/4.png" alt="">
+							<img src="public/user/assets/img/company-logos/4.png" alt="">
 						</div>
 						<div class="single-logo-item">
-							<img src="assets/img/company-logos/5.png" alt="">
+							<img src="public/user/assets/img/company-logos/5.png" alt="">
 						</div>
 					</div>
 				</div>
@@ -247,25 +247,25 @@
 	<!-- end copyright -->
 	
 	<!-- jquery -->
-	<script src="assets/js/jquery-1.11.3.min.js"></script>
+	<script src="<?php echo base_url('public/user/assets/js/jquery-1.11.3.min.js');?>"></script>
 	<!-- bootstrap -->
-	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="<?php echo base_url('public/user/assets/bootstrap/js/bootstrap.min.js');?>"></script>
 	<!-- count down -->
-	<script src="assets/js/jquery.countdown.js"></script>
+	<script src="<?php echo base_url('public/user/assets/js/jquery.countdown.js');?>"></script>
 	<!-- isotope -->
-	<script src="assets/js/jquery.isotope-3.0.6.min.js"></script>
+	<script src="<?php echo base_url('public/user/assets/js/jquery.isotope-3.0.6.min.js');?>"></script>
 	<!-- waypoints -->
-	<script src="assets/js/waypoints.js"></script>
+	<script src="<?php echo base_url('public/user/assets/js/waypoints.js');?>"></script>
 	<!-- owl carousel -->
-	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="<?php echo base_url('public/user/assets/js/owl.carousel.min.js');?>"></script>
 	<!-- magnific popup -->
-	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="<?php echo base_url('public/user/assets/js/jquery.magnific-popup.min.js');?>"></script>
 	<!-- mean menu -->
-	<script src="assets/js/jquery.meanmenu.min.js"></script>
+	<script src="<?php echo base_url('public/user/assets/js/jquery.meanmenu.min.js');?>"></script>
 	<!-- sticker js -->
-	<script src="assets/js/sticker.js"></script>
+	<script src="<?php echo base_url('public/user/assets/js/sticker.js');?>"></script>
 	<!-- main js -->
-	<script src="assets/js/main.js"></script>
+	<script src="<?php echo base_url('public/user/assets/js/main.js');?>"></script>
 
 </body>
 </html>

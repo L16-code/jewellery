@@ -11,8 +11,8 @@ class UserModel extends Model
 
     protected $useAutoIncrement = true;
 
-    protected $returnType     = 'array';
+    protected $returnType = 'array';
    // protected $useSoftDeletes = true;
 
-  //  protected $allowedFields = ['customer_name', 'custoemr_email','customer_postcode','customer_city','customer_address'];
+    protected $allowedFields = ['customer_name', 'customer_email','customer_password', 'customer_username'];
 }

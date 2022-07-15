@@ -218,6 +218,13 @@
         </li><!-- End Login Page Nav -->
 
         <li class="nav-item">
+            <a class="nav-link collapsed" href="product-upload">
+                <i class="bi bi-box-arrow-in-right"></i>
+                <span>product</span>
+            </a>
+        </li>  <!-- End product page Page Nav -->
+        
+        <li class="nav-item">
             <a class="nav-link collapsed" href="pages-error-404">
                 <i class="bi bi-dash-circle"></i>
                 <span>Error 404</span>

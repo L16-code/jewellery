@@ -177,6 +177,11 @@ class Admin extends BaseController
         return view('admin/pages/users-profile');
 
     }
+    public function product()
+    {
+        return view('admin/pages/product-upload');
+
+    }
 
 
 

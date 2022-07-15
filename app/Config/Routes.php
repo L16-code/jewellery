@@ -93,6 +93,7 @@ $routes->get('/pages-contact', 'Admin::contact');
 $routes->get('/pages-faq', 'Admin::faq');
 $routes->get('/pages-register', 'Admin::register');
 $routes->get('/pages-404-error', 'Admin::error');
+$routes->get('/product-upload', 'Admin::product');
 
 
 

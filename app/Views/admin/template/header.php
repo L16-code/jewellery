@@ -2,7 +2,7 @@
 <header id="header" class="header fixed-top d-flex align-items-center">
 
     <div class="d-flex align-items-center justify-content-between">
-    <a href="index" class="logo d-flex align-items-center">
+    <a href="admin" class="logo d-flex align-items-center">
         <img src="admin/assets/img/logo.png" alt="">
         <span class="d-none d-lg-block">NiceAdmin</span>
     </a>
@@ -213,7 +213,7 @@
             </li>
 
             <li>
-            <a class="dropdown-item d-flex align-items-center" href="#">
+            <a class="dropdown-item d-flex align-items-center" href="logout">
                 <i class="bi bi-box-arrow-right"></i>
                 <span>Sign Out</span>
             </a>

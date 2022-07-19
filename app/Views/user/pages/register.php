@@ -65,7 +65,7 @@
                                     <?php $validation = \Config\Services::validation();
                                         echo $validation->listErrors(); ?>
 
-                                    <form class="row g-3 needs-validation" action="login" method="post">
+                                    <form class="row g-3 needs-validation" action="register" method="post">
                                         <div class="col-12">
                                             <label for="yourName" class="form-label">Your Name</label>
                                             <input type="text" name="name" class="form-control" id="yourName" required>

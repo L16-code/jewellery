@@ -1,4 +1,5 @@
 <?php
+namespace App\Models;
 use CodeIgniter\Model;
 
 class CategoryModel extends Model
@@ -11,5 +12,5 @@ class CategoryModel extends Model
     protected $returnType     = 'array';
    // protected $useSoftDeletes = true;
 
-  //  protected $allowedFields = ['category_id', 'category_name','category_image','category_description'];
+    protected $allowedFields = ['category_name','subcategory_name'];
 }

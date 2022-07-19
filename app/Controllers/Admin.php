@@ -32,116 +32,116 @@ class Admin extends BaseController
     {
         return view('admin/pages/charts-echarts');
     }
-    public function accordion()
-    {
-        return view('admin/pages/components-accordion');
+    // public function accordion()
+    // {
+    //     return view('admin/pages/components-accordion');
 
-    }
-    public function alerts()
-    {
-        return view('admin/pages/components-alerts');
+    // }
+    // public function alerts()
+    // {
+    //     return view('admin/pages/components-alerts');
 
-    }
-    public function badges()
-    {
-        return view('admin/pages/components-badges');
+    // }
+    // public function badges()
+    // {
+    //     return view('admin/pages/components-badges');
 
-    }
-    public function breadcrumbs()
-    {
-        return view('admin/pages/components-breadcrumbs');
+    // }
+    // public function breadcrumbs()
+    // {
+    //     return view('admin/pages/components-breadcrumbs');
 
-    }
-    public function buttons()
-    {
-        return view('admin/pages/components-buttons');
+    // }
+    // public function buttons()
+    // {
+    //     return view('admin/pages/components-buttons');
 
-    }
-    public function cards()
-    {
-        return view('admin/pages/components-cards');
+    // }
+    // public function cards()
+    // {
+    //     return view('admin/pages/components-cards');
 
-    }
-    public function carousel()
-    {
-        return view('admin/pages/components-carousel');
+    // }
+    // public function carousel()
+    // {
+    //     return view('admin/pages/components-carousel');
 
-    }
-    public function group()
-    {
-        return view('admin/pages/components-list-group');
+    // }
+    // public function group()
+    // {
+    //     return view('admin/pages/components-list-group');
 
-    }
-    public function modal()
-    {
-        return view('admin/pages/components-modal');
+    // }
+    // public function modal()
+    // {
+    //     return view('admin/pages/components-modal');
 
-    }
-    public function pagination()
-    {
-        return view('admin/pages/components-pagination');
+    // }
+    // public function pagination()
+    // {
+    //     return view('admin/pages/components-pagination');
 
-    }
-    public function progress()
-    {
-        return view('admin/pages/components-progress');
+    // }
+    // public function progress()
+    // {
+    //     return view('admin/pages/components-progress');
 
-    }
-    public function spinners()
-    {
-        return view('admin/pages/'."components-spinners");
+    // }
+    // public function spinners()
+    // {
+    //     return view('admin/pages/'."components-spinners");
 
-    }
-    public function tabs()
-    {
-        return view('admin/pages/'."components-tabs");
+    // }
+    // public function tabs()
+    // {
+    //     return view('admin/pages/'."components-tabs");
 
-    }
-    public function tooltips()
-    {
-        return view('admin/pages/'."components-tooltips");
+    // }
+    // public function tooltips()
+    // {
+    //     return view('admin/pages/'."components-tooltips");
 
-    }
-    public function editors()
-    {
-        return view('admin/pages/'."froms-editors");
+    // }
+    // public function editors()
+    // {
+    //     return view('admin/pages/'."froms-editors");
 
-    }
-    public function elements()
-    {
-        return view('admin/pages/'."froms-elements");
+    // }
+    // public function elements()
+    // {
+    //     return view('admin/pages/'."froms-elements");
 
-    }
-    public function layouts()
-    {
-        return view('admin/pages/'."froms-layouts");
+    // }
+    // public function layouts()
+    // {
+    //     return view('admin/pages/'."froms-layouts");
 
-    }
-    public function validation()
-    {
-        return view('admin/pages/'."froms-validation");
+    // }
+    // public function validation()
+    // {
+    //     return view('admin/pages/'."froms-validation");
 
-    }
-    public function bootstrap()
-    {
-        return view('admin/pages/'."icons-bootstrap");
+    // }
+    // public function bootstrap()
+    // {
+    //     return view('admin/pages/'."icons-bootstrap");
 
-    }
-    public function boxicons()
-    {
-        return view('admin/pages/'."icons-boxicons");
+    // }
+    // public function boxicons()
+    // {
+    //     return view('admin/pages/'."icons-boxicons");
 
-    }
-    public function remix()
-    {
-        return view('admin/pages/'."icons-remix");
+    // }
+    // public function remix()
+    // {
+    //     return view('admin/pages/'."icons-remix");
 
-    }
-    public function blank()
-    {
-        return view('admin/pages/'."pages-blank");
+    // }
+    // public function blank()
+    // {
+    //     return view('admin/pages/'."pages-blank");
 
-    }
+    // }
     public function contact()
     {
         return view('admin/pages/'."pages-contact");
@@ -182,7 +182,21 @@ class Admin extends BaseController
         return view('admin/pages/product-upload');
 
     }
+    public function display()
+    {
+        return view('admin/pages/display');
 
+    }
+    // public function session()
+    // {
+    //     return view('admin/pages/checksession');
 
+    // }
+
+    public function category()
+    {
+        return view('admin/pages/category');
+
+    }
 
 }

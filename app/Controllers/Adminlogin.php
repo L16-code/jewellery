@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 // use CodeIgniter\Controller;
 
-class Login extends BaseController
+class Adminlogin extends BaseController
 {
         public function login()
     {
@@ -14,7 +14,7 @@ class Login extends BaseController
             'username' => ['label' => 'Username', 'rules' => 'required'],
             'password' => ['label' => 'Password', 'rules' => 'required|min_length[8]'],
         ])) {
-            return view('user/pages/' . "login", [
+            return view('admin/pages/' . "pages-login", [
                 'validation' => $this->validator,
             ]);
         }
@@ -24,19 +24,19 @@ class Login extends BaseController
             $uname = $_POST["username"];
             $pass = md5($_POST["password"]);
 
-            $sql = $db->query('SELECT customer_username, customer_password FROM customer');
+            $sql = $db->query('SELECT username, password FROM admin');
             $result = $sql->getResult();
            // print_r($result); die();
             foreach ($result as $row) {
-                $oldname = $row->customer_username;
-                $oldpass = $row->customer_password;
+                $oldname = $row->username;
+                $oldpass = $row->password;
                 break;
             }
             if ($oldpass == $pass and $oldname == $uname) {
                 session_start();
                 $_SESSION['login'] = true;
                 $_SESSION['username'] = $uname;
-                return redirect('index');
+                return redirect('admin');
             }
             echo "<h1>User not registered, or invalid details.";
             echo "You will be redirected to login in 3 seconds";

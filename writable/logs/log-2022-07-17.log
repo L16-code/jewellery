@@ -1,0 +1,108 @@
+ERROR - 2022-07-17 04:45:55 --> Column 'customer_name' cannot be null
+CRITICAL - 2022-07-17 04:45:55 --> Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `customer` (`customer_name`, `customer_email`, `customer_password`, `customer_username`) VALUES (NULL, NULL, \'0f28b77029ba2f818b345cc390ceca80\', \'lavi\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `customer` (`customer_name`, `customer_email`, `customer_password`, `customer_username`) VALUES (NULL, NULL, \'0f28b77029ba2f818b345cc390ceca80\', \'lavi\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `customer` (`customer_name`, `customer_email`, `customer_password`, `customer_username`) VALUES (NULL, NULL, \'0f28b77029ba2f818b345cc390ceca80\', \'lavi\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customer` (`customer_name`, `customer_email`, `customer_password`, `customer_username`) VALUES (:customer_name:, :customer_email:, :customer_password:, :customer_username:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Register.php(45): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->userSignup()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-17 04:50:17 --> Column 'customer_name' cannot be null
+CRITICAL - 2022-07-17 04:50:17 --> Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `customer` (`customer_name`, `customer_email`, `customer_password`, `customer_username`) VALUES (NULL, NULL, \'0f28b77029ba2f818b345cc390ceca80\', \'lavi\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `customer` (`customer_name`, `customer_email`, `customer_password`, `customer_username`) VALUES (NULL, NULL, \'0f28b77029ba2f818b345cc390ceca80\', \'lavi\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `customer` (`customer_name`, `customer_email`, `customer_password`, `customer_username`) VALUES (NULL, NULL, \'0f28b77029ba2f818b345cc390ceca80\', \'lavi\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customer` (`customer_name`, `customer_email`, `customer_password`, `customer_username`) VALUES (:customer_name:, :customer_email:, :customer_password:, :customer_username:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Register.php(45): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->userSignup()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-17 04:59:55 --> Column 'customer_name' cannot be null
+CRITICAL - 2022-07-17 04:59:55 --> Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `customer` (`customer_name`, `customer_email`, `customer_password`, `customer_username`) VALUES (NULL, NULL, \'3a4ebf16a4795ad258e5408bae7be341\', \'admin\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `customer` (`customer_name`, `customer_email`, `customer_password`, `customer_username`) VALUES (NULL, NULL, \'3a4ebf16a4795ad258e5408bae7be341\', \'admin\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `customer` (`customer_name`, `customer_email`, `customer_password`, `customer_username`) VALUES (NULL, NULL, \'3a4ebf16a4795ad258e5408bae7be341\', \'admin\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customer` (`customer_name`, `customer_email`, `customer_password`, `customer_username`) VALUES (:customer_name:, :customer_email:, :customer_password:, :customer_username:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Register.php(45): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->userSignup()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-17 05:01:34 --> Column 'customer_name' cannot be null
+CRITICAL - 2022-07-17 05:01:34 --> Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `customer` (`customer_name`, `customer_email`, `customer_password`, `customer_username`) VALUES (NULL, NULL, \'3a4ebf16a4795ad258e5408bae7be341\', \'admin\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `customer` (`customer_name`, `customer_email`, `customer_password`, `customer_username`) VALUES (NULL, NULL, \'3a4ebf16a4795ad258e5408bae7be341\', \'admin\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `customer` (`customer_name`, `customer_email`, `customer_password`, `customer_username`) VALUES (NULL, NULL, \'3a4ebf16a4795ad258e5408bae7be341\', \'admin\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customer` (`customer_name`, `customer_email`, `customer_password`, `customer_username`) VALUES (:customer_name:, :customer_email:, :customer_password:, :customer_username:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Register.php(45): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->userSignup()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-17 05:01:49 --> Column 'customer_name' cannot be null
+CRITICAL - 2022-07-17 05:01:49 --> Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `customer` (`customer_name`, `customer_email`, `customer_password`, `customer_username`) VALUES (NULL, NULL, \'3a4ebf16a4795ad258e5408bae7be341\', \'admin\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `customer` (`customer_name`, `customer_email`, `customer_password`, `customer_username`) VALUES (NULL, NULL, \'3a4ebf16a4795ad258e5408bae7be341\', \'admin\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `customer` (`customer_name`, `customer_email`, `customer_password`, `customer_username`) VALUES (NULL, NULL, \'3a4ebf16a4795ad258e5408bae7be341\', \'admin\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customer` (`customer_name`, `customer_email`, `customer_password`, `customer_username`) VALUES (:customer_name:, :customer_email:, :customer_password:, :customer_username:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Register.php(45): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->userSignup()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-17 05:02:35 --> Column 'customer_email' cannot be null
+CRITICAL - 2022-07-17 05:02:35 --> Column 'customer_email' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `customer` (`customer_name`, `customer_email`, `customer_password`, `customer_username`) VALUES (NULL, NULL, \'3a4ebf16a4795ad258e5408bae7be341\', \'admin\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `customer` (`customer_name`, `customer_email`, `customer_password`, `customer_username`) VALUES (NULL, NULL, \'3a4ebf16a4795ad258e5408bae7be341\', \'admin\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `customer` (`customer_name`, `customer_email`, `customer_password`, `customer_username`) VALUES (NULL, NULL, \'3a4ebf16a4795ad258e5408bae7be341\', \'admin\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customer` (`customer_name`, `customer_email`, `customer_password`, `customer_username`) VALUES (:customer_name:, :customer_email:, :customer_password:, :customer_username:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Register.php(45): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->userSignup()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-17 05:23:59 --> Invalid file: admin/pages/froms-elements.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/froms-elements.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/froms-elements', [], true)
+ 3 APPPATH\Controllers\Admin.php(112): view('admin/pages/froms-elements')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->elements()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-17 05:24:07 --> Invalid file: admin/pages/froms-layouts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/froms-layouts.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/froms-layouts', [], true)
+ 3 APPPATH\Controllers\Admin.php(117): view('admin/pages/froms-layouts')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->layouts()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

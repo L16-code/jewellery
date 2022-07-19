@@ -48,7 +48,7 @@
                         <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
 
                             <div class="d-flex justify-content-center py-4">
-                                <a href="index" class="logo d-flex align-items-center w-auto">
+                                <a href="admin" class="logo d-flex align-items-center w-auto">
                                     <img src="assets/img/logo.png" alt="">
                                     <span class="d-none d-lg-block">NiceAdmin</span>
                                 </a>
@@ -63,8 +63,7 @@
                                         <p class="text-center small">Enter your username & password to login</p>
                                     </div>
 
-                                    <form class="row g-3 needs-validation" novalidate>
-                                    <form action="index" method="post">
+                                    <form class="row g-3 needs-validation" action="Login" method="post">
 
                                         <div class="col-12">
                                             <label for="yourUsername" class="form-label">Username</label>

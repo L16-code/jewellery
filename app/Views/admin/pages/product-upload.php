@@ -66,15 +66,15 @@
         <div class="row">
             <div class="col-sm-2 bg-dark height">
                 <p class="pt-5 pb-5 text-center">
-                    <a href="admin-panel.php" class="text-decoration-none"><span class="text-light text-font">Admin</span></a>
+                    <a href="admin" class="text-decoration-none"><span class="text-light text-font">Admin</span></a>
                 </p>
                 <hr class="bg-light ">
                 <p class="pt-2 pb-2 text-center">
-                    <a href="admin-profile.php" class="text-decoration-none"><span class="text-light">Profile</span></a>
+                    <a href="user-profile" class="text-decoration-none"><span class="text-light">Profile</span></a>
                 </p>
                 <hr class="bg-light ">
                 <p class="pt-2 pb-2 text-center">
-                    <a href="categories.php" class="text-decoration-none"><span class="text-light">Categories</span></a>
+                    <a href="category" class="text-decoration-none"><span class="text-light">Categories</span></a>
                 </p>
                 <hr class="bg-light ">
                 <p class="pt-2 pb-2 text-center">
@@ -86,7 +86,7 @@
                 </p>
                 <hr class="bg-light ">
                 <p class="pt-2 pb-2 text-center">
-                    <a href="products-display.php" class="text-decoration-none"><span class="text-light">View Products</span></a>
+                    <a href="display" class="text-decoration-none"><span class="text-light">View Products</span></a>
                 </p>
                 <hr class="bg-light ">
                 <p class="pt-2 pb-2 text-center">
@@ -120,35 +120,33 @@
                     </div>
                 </div>
                 <div class="container mx-auto">
-                    <form action="products-add.php" id="the-form" class="form-control w-50 mx-auto" enctype="multipart/form-data" method="post">
+                    <form action="productsadd" id="the-form" class="form-control w-50 mx-auto" enctype="multipart/form-data" method="post">
 
                         <label class="pt-4 pb-2 text-center">Enter product name</label>
                         <input type="text" class="form-control" value="<?php /*echo $_POST['pname'] */?>" id="name" name="pname" placeholder="Enter Product name">
-                        <label class="pt-4 pb-2 text-center">Enter Brand name</label>
-                        <input type="text" class="form-control" value="<?php /*echo $_POST['brand']*/ ?>" id="brand" name="brand" placeholder="Enter brand name">
                         <label class="pt-4 pb-2 text-center">Enter product price</label>
                         <input type="text" class="form-control" value="<?php /*echo $_POST['price']*/ ?>" id="prprice" name="price" placeholder="Enter Product price">
                         <label class="pt-4 pb-2 text-center">Enter quantity</label>
                         <input type="text" class="form-control" value="<?php /*echo $_POST['qty'] */?>" id="qty" name="qty" placeholder="Enter quantity">
 
-                        <label class="pt-4 pb-2 text-center" for="categories">Choose a category</label>
+                        <!-- <label class="pt-4 pb-2 text-center" for="categories">Choose a category</label>
                         <select class="form-control" id="categories" name="categories" onchange="this.form.submit()">
-                            
+                            -->
                             
 
                         </select>
 
                         
-                        <label class="pt-4 pb-2 text-center" for="subcategories">Choose a sub-category</label>
+                        <!-- <label class="pt-4 pb-2 text-center" for="subcategories">Choose a sub-category</label>
                         <select class="form-control" id="subcategories" name="subcategories">
-                            <option value="">-</option>
+                            <option value="">-</option> -->
                             
                         </select>
                         <br>
 
 
                         <p class="text-danger pt-2"><strong>Upload product images</strong></p>
-                        <input type="file" name="fileToUpload[]" class="form-control" multiple>
+                        <input type="file" name="image" class="form-control" multiple>
                         <p>
 
                         </p><br>
@@ -156,7 +154,7 @@
                             <div class="hide"><img class="mx-auto" style="height: 50px; width: 50px;" src="/test123/products-images/ajax-loader.gif"></div>
                         </div>
                         <br>
-                        <button type="button" class="btn btn-primary form-control" onclick="addproduct()" id="btnSubmit">Add product</button>
+                        <button type="submit" class="btn btn-primary form-control"  id="btnSubmit">Add product</button>
                         <br><br>
                         <div class="error"></div>
                         <div class="success"></div>

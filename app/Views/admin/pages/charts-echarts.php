@@ -38,7 +38,15 @@
 </head>
 
 <body>
-
+<?php
+        include 'check_session.php';
+        class check1 extends check
+        {
+            //....
+        }
+        $obj = new check1;
+        $obj->check_login();
+        ?>
     <!-- ======= Header ======= -->
     <?php echo $this->include('admin/template/header'); ?>
 <!-- End Header -->

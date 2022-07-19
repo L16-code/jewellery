@@ -2,7 +2,7 @@
 namespace App\Controllers;
 use CodeIgniter\Controller;
 use Config\App;
-class Register extends BaseController
+class adminregister extends BaseController
 {
     // public function Register(){
     //     $db=\Config\Database::connect();
@@ -16,7 +16,7 @@ class Register extends BaseController
     //     $db->query($sql,[$name,$email,$pass,$uname]);
     //     $db->close();
     // }
-    public function userSignup()
+    public function register()
     {
         // var_dump($_POST);
         // die();
@@ -25,7 +25,7 @@ class Register extends BaseController
             'username' => ['label' => 'Username', 'rules' => 'required'],
             'password' => ['label' => 'Password', 'rules' => 'required|min_length[10]|alpha_numeric_punct'],
         ])) {
-            return view('user/pages/'."register", [
+            return view('admin/pages/'."pages-register", [
                 'validation' => $this->validator,
             ]);
         }
@@ -35,14 +35,14 @@ class Register extends BaseController
         $password = $this->request->getVar("password");
 
         $values = [
-            'customer_name' => $name,
-            'customer_email' => $email,
-            'customer_password' => md5($password),
-            'customer_username' => $username,
+            'name' => $name,
+            'email' => $email,
+            'password' => md5($password),
+            'username' => $username,
         ];
 
-        $userModel = new \App\Models\UserModel();
-        $query = $userModel->insert($values);
+        $adminModel = new \App\Models\AdminModel();
+        $query = $adminModel->insert($values);
         if(!$query){
             // return redirect()->back()->with('fail','Something wrong');
             // return view('user/login/registration'); 
@@ -50,7 +50,7 @@ class Register extends BaseController
         }else{
             // return redirect('index');
             //echo " successfully registered ";
-            return view('user/pages/login'); 
+            return view('admin/pages/pages-login'); 
         }
         // return view('user/login/' . "registration");
     }

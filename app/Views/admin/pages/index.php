@@ -1,3 +1,12 @@
+<?php
+        include 'check_session.php';
+        class check1 extends check
+        {
+            //....
+        }
+        $obj = new check1;
+        $obj->check_login();  ?>
+
 <!-- search area -->
 <?= $this->extend('admin/template/default') ?>
 
@@ -11,7 +20,7 @@
             <h1>Dashboard</h1>
             <nav>
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index">Home</a></li>
+                    <li class="breadcrumb-item"><a href="admin">Home</a></li>
                     <li class="breadcrumb-item active">Dashboard</li>
                 </ol>
             </nav>

@@ -53,11 +53,13 @@ $routes->get('/register', 'Home::register');
 
 
 // routes for user login
-$routes->post('/login', 'Register::userSignup');
-$routes->post('/index', 'Login::login');
+$routes->post('/register', 'Register::userSignup');
+$routes->post('/login', 'Login::login');
 //end routes for user login
 
-
+$routes->post('/adminregister', 'adminregister::register');
+$routes->post('/Login', 'adminlogin::login');
+$routes->get('/logout', 'Logout::logout');
 
 
 
@@ -67,34 +69,22 @@ $routes->get('/pages-login', 'Admin::login');
 $routes->get('/charts-apexcharts', 'Admin::apexcharts');
 $routes->get('/charts-chartjs', 'Admin::chartjs');
 $routes->get('/charts-echarts', 'Admin::echarts');
-$routes->get('/components-accordion', 'Admin::accordion');
-$routes->get('/components-alerts', 'Admin::alerts');
-$routes->get('/components-badges', 'Admin::badges');
-$routes->get('/components-breadcrumbs', 'Admin::breadcrumbs');
-$routes->get('/components-buttons', 'Admin::buttons');
-$routes->get('/components-cards', 'Admin::cards');
-$routes->get('/components-carousel', 'Admin::carousel');
-$routes->get('/components-list-group', 'Admin::group');
-$routes->get('/components-modal', 'Admin::modal');
-$routes->get('/components-pagination', 'Admin::pagination');
-$routes->get('/components-progress', 'Admin::progress');
-$routes->get('/components-spinners', 'Admin::spinners');
-$routes->get('/components-tabs', 'Admin::tabs');
-$routes->get('/components-tooltips', 'Admin::tooltips');
-$routes->get('/forms-editors', 'Admin::editors');
-$routes->get('/forms-elements', 'Admin::elements');
-$routes->get('/forms-layouts', 'Admin::layouts');
-$routes->get('/forms-validation', 'Admin::validation');
-$routes->get('/forms-bootstrap', 'Admin::bootstrap');
-$routes->get('/icons-boxicons', 'Admin::boxicons');
-$routes->get('/icons-remix', 'Admin::remix');
-$routes->get('/pages-blank', 'Admin::blank');
+$routes->get('/users-profile', 'Admin::profile');
 $routes->get('/pages-contact', 'Admin::contact');
 $routes->get('/pages-faq', 'Admin::faq');
 $routes->get('/pages-register', 'Admin::register');
 $routes->get('/pages-404-error', 'Admin::error');
 $routes->get('/product-upload', 'Admin::product');
+$routes->get('/display', 'Admin::display');
+$routes->get('/category', 'Admin::category');
 
+// $routes->get('/checksession', 'Admin::session');
+
+$routes->post('/maincategory', 'Category::category');
+// $routes->post('/maincategory', 'Category::category');
+$routes->post('/productsadd', 'product::products');
+
+// $routes->post('/mcategory', 'Category::category');
 
 
 

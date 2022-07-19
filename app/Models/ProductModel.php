@@ -14,5 +14,5 @@ class ProductModel extends Model
     protected $returnType     = 'array';
    // protected $useSoftDeletes = true;
 
-  //  protected $allowedFields = ['product_name', 'product_dec','product_img1','product_img2','product_img3','product_price','product_stock];
+    protected $allowedFields = ['product_name','product_img','product_price','product_qty'];
 }

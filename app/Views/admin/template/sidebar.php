@@ -61,6 +61,13 @@
         </li><!-- End category Page Nav -->
 
         <li class="nav-item">
+            <a class="nav-link collapsed" href="subcategory">
+                <i class="bi bi-box-arrow-in-right"></i>
+                <span>Subategory</span>
+            </a>
+        </li><!-- End subcategory Page Nav -->
+
+        <li class="nav-item">
             <a class="nav-link collapsed" href="product-upload">
                 <i class="bi bi-box-arrow-in-right"></i>
                 <span>product</span>

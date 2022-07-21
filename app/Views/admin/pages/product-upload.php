@@ -123,24 +123,29 @@
                     <form action="productsadd" id="the-form" class="form-control w-50 mx-auto" enctype="multipart/form-data" method="post">
 
                         <label class="pt-4 pb-2 text-center">Enter product name</label>
-                        <input type="text" class="form-control" value="<?php /*echo $_POST['pname'] */?>" id="name" name="pname" placeholder="Enter Product name">
+                        <input type="text" class="form-control" value="<?php /*echo $_POST['pname'] */ ?>" id="name" name="pname" placeholder="Enter Product name">
                         <label class="pt-4 pb-2 text-center">Enter product price</label>
                         <input type="text" class="form-control" value="<?php /*echo $_POST['price']*/ ?>" id="prprice" name="price" placeholder="Enter Product price">
                         <label class="pt-4 pb-2 text-center">Enter quantity</label>
-                        <input type="text" class="form-control" value="<?php /*echo $_POST['qty'] */?>" id="qty" name="qty" placeholder="Enter quantity">
+                        <input type="text" class="form-control" value="<?php /*echo $_POST['qty'] */ ?>" id="qty" name="qty" placeholder="Enter quantity">
 
-                        <!-- <label class="pt-4 pb-2 text-center" for="categories">Choose a category</label>
+                        <label class="pt-4 pb-2 text-center" for="categories">Choose a category</label>
                         <select class="form-control" id="categories" name="categories" onchange="this.form.submit()">
-                            -->
-                            
-
+                            <?php
+                            foreach ($name as $row) {
+                                echo '<option value="' .$row["category_name"] . '">' .$row["category_name"] . '</option>';
+                            }
+                            ?>
                         </select>
 
-                        
-                        <!-- <label class="pt-4 pb-2 text-center" for="subcategories">Choose a sub-category</label>
+                        <label class="pt-4 pb-2 text-center" for="subcategories">Choose a sub-category</label>
                         <select class="form-control" id="subcategories" name="subcategories">
-                            <option value="">-</option> -->
-                            
+                        <?php
+                            foreach ($subname as $row) {
+                                echo '<option value="' .$row["subcategory_name"] . '">' .$row["subcategory_name"] . '</option>';
+                            }
+                        ?>
+
                         </select>
                         <br>
 
@@ -154,7 +159,7 @@
                             <div class="hide"><img class="mx-auto" style="height: 50px; width: 50px;" src="/test123/products-images/ajax-loader.gif"></div>
                         </div>
                         <br>
-                        <button type="submit" class="btn btn-primary form-control"  id="btnSubmit">Add product</button>
+                        <button type="submit" class="btn btn-primary form-control" id="btnSubmit">Add product</button>
                         <br><br>
                         <div class="error"></div>
                         <div class="success"></div>

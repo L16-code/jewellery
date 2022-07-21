@@ -56,6 +56,7 @@
                     <li class="breadcrumb-item"><a href="admin">Home</a></li>
                     <li class="breadcrumb-item">Forms</li>
                     <li class="breadcrumb-item active">Elements</li>
+                    
                 </ol>
             </nav>
         </div><!-- End Page Title -->
@@ -70,27 +71,35 @@
 
                             <!-- General Form Elements -->
                             <form action="maincategory" method="post">
-                                <div class="row mb-3">
+                                <!-- <div class="row mb-3">
                                     <label for="inputText" class="col-sm-2 col-form-label">category-name</label>
                                     <div class="col-sm-10">
                                         <input type="text" name="category" class="form-control">
                                     </div>
-                                </div>
-                                <!-- <div class="row mb-3">
-                                    <label class="col-sm-2 col-form-label">Add category</label>
-                                    <div class="col-sm-10">
-                                        <button type="submit" class="btn btn-primary">Add category</button>
-                                    </div>
                                 </div> -->
+                                <div class="row mb-3">
+                                    <label class="col-sm-2 col-form-label">category</label>
+                                    <div class="col-sm-10">
+                                        <select class="form-select" name="category" aria-label="Default select example">
+                                            <option selected>Open this select menu</option>
+                                            <?php
+                                            foreach ($name as $row) {
+                                                echo '<option value="' . $row["id"] . '">' . $row["category_name"] . '</option>';
+                                            }
+                                            ?>
+                                            
+                                        </select>
+                                    </div>
+                                </div>
 
-                                <!-- <div class="row mb-3">
+                                <div class="row mb-3">
                                     <label for="inputText" class="col-sm-2 col-form-label">subcategory-name</label>
                                     <div class="col-sm-10">
                                         <input type="text" name="subcategory" class="form-control">
                                     </div>
-                                </div> -->
+                                </div>
                                 <div class="row mb-3">
-                                    <label class="col-sm-2 col-form-label">Add category</label>
+                                    <label class="col-sm-2 col-form-label">Add sub-category</label>
                                     <div class="col-sm-10">
                                         <button type="submit" class="btn btn-primary">Add </button>
                                     </div>
@@ -106,7 +115,8 @@
     </main><!-- End #main -->
 
     <!-- ======= Footer ======= -->
-    <?php echo $this->include('admin/template/footer'); ?><!-- End Footer -->
+    <?php echo $this->include('admin/template/footer'); ?>
+    <!-- End Footer -->
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 

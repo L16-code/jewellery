@@ -62,19 +62,19 @@
         <div class="row">
             <div class="col-sm-2 bg-dark height">
                 <p class="pt-5 pb-5 text-center">
-                    <a href="admin.php" class="text-decoration-none"><span class="text-light text-font">Admin</span></a>
+                    <a href="admin" class="text-decoration-none"><span class="text-light text-font">Admin</span></a>
                 </p>
                 <hr class="bg-light ">
                 <p class="pt-2 pb-2 text-center">
-                    <a href="user-profile.php" class="text-decoration-none"><span class="text-light">Profile</span></a>
+                    <a href="user-profile" class="text-decoration-none"><span class="text-light">Profile</span></a>
                 </p>
                 <hr class="bg-light ">
                 <p class="pt-2 pb-2 text-center">
-                    <a href="categories.php" class="text-decoration-none"><span class="text-light">Categories</span></a>
+                    <a href="category" class="text-decoration-none"><span class="text-light">Categories</span></a>
                 </p>
                 <hr class="bg-light ">
                 <p class="pt-2 pb-2 text-center">
-                    <a href="subcategories.php" class="text-decoration-none"><span class="text-light">Browse Categories</span></a>
+                    <a href="subcategory" class="text-decoration-none"><span class="text-light">Browse Categories</span></a>
                 </p>
 
                 <hr class="bg-light ">
@@ -139,25 +139,25 @@
                             </thead>
                             <tbody>
 
-                                <tr>
-                                    <form method="post" id="the-form" enctype="multipart/form-data">
-                                        <td><input type="text" class="form-control" name="category-name" value="['category_name']" readonly></td>
-                                        <td><input type="text" class="form-control" name="product-name" value="['product_name']"></td>
-                                        <input type="hidden" class="form-control" name="subcategories" value="['subcategory_id']" readonly>
-                                        <input type="hidden" class="form-control" id="pid" name="pid" value="['id'])" readonly>
-                                        <td><input type="number" class="form-control" name="quantity" value="['qty']"></td>
-                                        <td><input type="number" class="form-control" name="price" value="['price']"></td>
-                                        <td><img src="['image']" height="80px" width="150px">
-                                            <input name="fileToUpload[]" class="form-control" type="file" multiple>
-                                        </td>
-                                        <td><button type="submit" formaction="products-update.php" class="form-control">Update</button></td>
-                                        <td><button type="submit" formaction="" class="form-control">Delete</button></td>
-                                    </form>
+                            <?php foreach ($name as $key => $value) : ?>
+                                    <tr>
+                                        <form method="post" id="the-form" enctype="multipart/form-data">
+                                            <td><input type="text" class="form-control" name="category" value="<?php echo ($value['category_name']); ?>"></td>
+                                            <input type="hidden" class="form-control" name="subcategory" value="<?php echo ($value['subcategory_name']); ?>">
+                                    
+                                            <!-- <input type="hidden" class="form-control" id="pid" name="pid" value="" readonly> -->
+                                            <td><input type="text" class="form-control" name="product" value="<?php echo ($value['product_name']); ?>"></td>
+                                            <td><input type="number" class="form-control" name="quantity" value="<?php echo ($value['product_qty']); ?>"></td>
+                                            <td><input type="number" class="form-control" name="price" value="<?php echo ($value['product_price']); ?>"></td>
+                                            <td><?php echo ($value['product_img']);  ?></td>
+                                            <td><button type="submit" formaction="products-update" class="form-control">Update</button></td>
+                                            <td><button type="submit" formaction="" class="form-control">Delete</button></td>
+                                        </form>
 
-
-                                </tr>
-                                <?php
-                                ?>
+                                <?php endforeach; ?>
+                                    </tr>
+                                    <?php
+                                    ?>
 
                             </tbody>
                         </table>
@@ -185,8 +185,8 @@
                                     </li>
 
 
-                                    <li class="page-item ">
-                                        <a class="page-link" href="#">Next</a>
+                                    <li class=" page-item ">
+                                        <a class=" page-link" href="#">Next</a>
                                     </li>
                                 </ul>
                             </nav>

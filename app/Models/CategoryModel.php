@@ -12,5 +12,5 @@ class CategoryModel extends Model
     protected $returnType     = 'array';
    // protected $useSoftDeletes = true;
 
-    protected $allowedFields = ['category_name','subcategory_name'];
+    protected $allowedFields = ['category_name'];
 }

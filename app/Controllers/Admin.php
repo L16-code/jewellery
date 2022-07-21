@@ -179,12 +179,29 @@ class Admin extends BaseController
     }
     public function product()
     {
-        return view('admin/pages/product-upload');
-
+        $category = new \App\Models\CategoryModel();
+        $data = $category->findAll();
+        $subcategory = new \App\Models\SubcategoryModel();
+        $data1 = $subcategory->findAll();
+        return view('admin/pages/product-upload', ['name' => $data,'subname' => $data1]);
+        // return view('admin/pages/product-upload', ['subname' => $data1]);
     }
     public function display()
     {
-        return view('admin/pages/display');
+        $product = new \App\Models\ProductModel();
+        $data = $product->findAll();
+        return view('admin/pages/display', ['name' => $data]);
+        $category = new \App\Models\CategoryModel();
+        $data1 = $category->findAll();
+        // $data = $data1;
+        // return view('admin/pages/display', ['name1' => $data]);
+        $subcategory = new \App\Models\SubcategoryModel();
+        $data2 = $subcategory->findAll();
+        // $data1=$data2->findAll();
+        // $data=$data1;
+        // return view('admin/pages/display', ['name2' => $data]);
+        return view('admin/pages/display', ['name' => $data,'name1' => $data1,'name2' => $data2]);
+
 
     }
     // public function session()
@@ -196,6 +213,13 @@ class Admin extends BaseController
     public function category()
     {
         return view('admin/pages/category');
+
+    }
+    public function subcategory()
+    {
+        $category = new \App\Models\CategoryModel();
+        $data = $category->findAll();
+        return view('admin/pages/subcategory', ['name' => $data]);
 
     }
 

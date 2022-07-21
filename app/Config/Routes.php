@@ -77,6 +77,8 @@ $routes->get('/pages-404-error', 'Admin::error');
 $routes->get('/product-upload', 'Admin::product');
 $routes->get('/display', 'Admin::display');
 $routes->get('/category', 'Admin::category');
+$routes->get('/subcategory', 'Admin::subcategory');
+
 
 // $routes->get('/checksession', 'Admin::session');
 

@@ -1,24 +1,37 @@
 <?php
+
 namespace App\Controllers;
+
 use App\Models\SubcategoryModel;
+
 class Category extends BaseController
 {
     public function category()
     {
-        $name = $this->request->getVar("category");
-        $subname = $this->request->getVar("subcategory");
-        $values=[
-                    'category_name'=> $name,
-                    'subcategory_name'=> $subname,
-                ];
         $category = new \App\Models\CategoryModel();
+        $name = $this->request->getVar("category");
+
+        $values = [
+            'category_name' => $name,
+        ];
         $query = $category->insert($values);
+        $subcategory = new \App\Models\SubcategoryModel();
+        $subname = $this->request->getVar("subcategory");
+        $categoryid = $this->request->getVar("category");
+
+        $values1 = [
+            'subcategory_name' => $subname,
+            'category_id' => $categoryid
+        ];
+        $query = $subcategory->insert($values1);
+
         if (!$query) {
-            
+
             return redirect()->back();
         } else {
-            return redirect('category');
+            return redirect('subcategory');
         }
+        
     }
     // public function subCategory()
     // {
@@ -33,5 +46,5 @@ class Category extends BaseController
     //         return redirect('category');
     //         // return view('user/login/login'); 
     //     }
-// }
+    // }
 }

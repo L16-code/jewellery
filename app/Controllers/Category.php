@@ -6,7 +6,7 @@ use App\Models\SubcategoryModel;
 
 class Category extends BaseController
 {
-    public function category()
+    public function Subcategory()
     {
         $category = new \App\Models\CategoryModel();
         $name = $this->request->getVar("category");
@@ -32,6 +32,22 @@ class Category extends BaseController
             return redirect('subcategory');
         }
         
+    }
+    public function category()
+    {
+        $category = new \App\Models\CategoryModel();
+        $name = $this->request->getVar("category");
+
+        $values = [
+            'category_name' => $name,
+        ];
+        $query = $category->insert($values);
+        if (!$query) {
+
+            return redirect()->back();
+        } else {
+            return redirect('category');
+        }
     }
     // public function subCategory()
     // {

@@ -104,20 +104,20 @@
             </div>
             <div class="col-sm-10 bg-light">
                 <div class="row">
-                    <div class="col-sm-2">
+                    <!-- <div class="col-sm-2">
                         <p class="text-center pt-5">
                             <img class="rounded" src="<?php echo ("/test123/profile-pic/") . "display-picture.jpg"; ?>" width="150px" height="140px">
                         </p>
-                    </div>
+                    </div> -->
                     <div class="col-sm-8">
                         <h1 class="text-center pt-4 pb-5"><strong>Add Products</strong></h1>
                         <hr class="w-25 mx-auto">
                     </div>
-                    <div class="col-sm-2">
+                    <!-- <div class="col-sm-2">
                         <p class="pt-5 text-center">
                             <a href="logout.php" class="btn btn-outline-primary">Logout</a>
                         </p>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="container mx-auto">
                     <form action="productsadd" id="the-form" class="form-control w-50 mx-auto" enctype="multipart/form-data" method="post">
@@ -130,7 +130,7 @@
                         <input type="text" class="form-control" value="<?php /*echo $_POST['qty'] */ ?>" id="qty" name="qty" placeholder="Enter quantity">
 
                         <label class="pt-4 pb-2 text-center" for="categories">Choose a category</label>
-                        <select class="form-control" id="categories" name="categories" onchange="this.form.submit()">
+                        <select class="form-control" id="categories" name="categories">
                             <?php
                             foreach ($name as $row) {
                                 echo '<option value="' .$row["category_name"] . '">' .$row["category_name"] . '</option>';
@@ -145,11 +145,8 @@
                                 echo '<option value="' .$row["subcategory_name"] . '">' .$row["subcategory_name"] . '</option>';
                             }
                         ?>
-
                         </select>
                         <br>
-
-
                         <p class="text-danger pt-2"><strong>Upload product images</strong></p>
                         <input type="file" name="image" class="form-control" multiple>
                         <p>

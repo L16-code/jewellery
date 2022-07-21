@@ -82,12 +82,15 @@ $routes->get('/subcategory', 'Admin::subcategory');
 
 // $routes->get('/checksession', 'Admin::session');
 
-$routes->post('/maincategory', 'Category::category');
+$routes->post('/maincategory', 'Category::Subcategory');
+$routes->post('/maincategory1', 'Category::category');
+
 // $routes->post('/maincategory', 'Category::category');
 $routes->post('/productsadd', 'product::products');
 
 // $routes->post('/mcategory', 'Category::category');
 
+$routes->post('/deleteproduct', 'deleteproduct::delete_product');
 
 
 

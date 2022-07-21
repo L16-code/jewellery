@@ -190,17 +190,13 @@ class Admin extends BaseController
     {
         $product = new \App\Models\ProductModel();
         $data = $product->findAll();
-        return view('admin/pages/display', ['name' => $data]);
-        $category = new \App\Models\CategoryModel();
-        $data1 = $category->findAll();
-        // $data = $data1;
-        // return view('admin/pages/display', ['name1' => $data]);
-        $subcategory = new \App\Models\SubcategoryModel();
-        $data2 = $subcategory->findAll();
-        // $data1=$data2->findAll();
-        // $data=$data1;
+        // return view('admin/pages/display', ['name' => $data]);
+        // $category = new \App\Models\CategoryModel();
+        // $data1 = $category->findAll();
+        // $subcategory = new \App\Models\SubcategoryModel();
+        // $data2 = $subcategory->findAll();
         // return view('admin/pages/display', ['name2' => $data]);
-        return view('admin/pages/display', ['name' => $data,'name1' => $data1,'name2' => $data2]);
+        return view('admin/pages/display', ['name' => $data]);
 
 
     }

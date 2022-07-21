@@ -15,8 +15,8 @@ class product extends BaseController
         $productModel = new \App\Models\ProductModel();
         $file = $this->request->getFile('image');
         if ($file->isValid() && !$file->hasMoved()) {
-            $imageName = $file->getName();
-            $file->move('public/uploads/', $imageName);
+        $imageName = $file->getName();
+        $file->move('public/uploads/', $imageName);
         }
         $values = [
             'product_name' => $name,

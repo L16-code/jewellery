@@ -367,3 +367,90 @@ in APPPATH\Views\admin\pages\display.php on line 145.
  7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
  8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 03:28:02 --> Undefined index: category_name
+in APPPATH\Views\admin\pages\display.php on line 146.
+ 1 APPPATH\Views\admin\pages\display.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: category_name', 'APPPATH\\Views\\admin\\pages\\display.php', 146, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\display.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/display', [], true)
+ 5 APPPATH\Controllers\Admin.php(199): view('admin/pages/display', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->display()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 04:04:19 --> Undefined variable: imageName
+in APPPATH\Controllers\product.php on line 23.
+ 1 APPPATH\Controllers\product.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: imageName', 'APPPATH\\Controllers\\product.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\product->products()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\product))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-21 04:05:24 --> Column 'subcategory_name' cannot be null
+CRITICAL - 2022-07-21 04:05:24 --> Column 'subcategory_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `subcategory` (`subcategory_name`, `category_id`) VALUES (NULL, \'hhh\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `subcategory` (`subcategory_name`, `category_id`) VALUES (NULL, \'hhh\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `subcategory` (`subcategory_name`, `category_id`) VALUES (NULL, \'hhh\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `subcategory` (`subcategory_name`, `category_id`) VALUES (:subcategory_name:, :category_id:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Category.php(26): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Category->category()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-21 04:07:24 --> Column 'subcategory_name' cannot be null
+CRITICAL - 2022-07-21 04:07:24 --> Column 'subcategory_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `subcategory` (`subcategory_name`, `category_id`) VALUES (NULL, \'hhh\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `subcategory` (`subcategory_name`, `category_id`) VALUES (NULL, \'hhh\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `subcategory` (`subcategory_name`, `category_id`) VALUES (NULL, \'hhh\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `subcategory` (`subcategory_name`, `category_id`) VALUES (:subcategory_name:, :category_id:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Category.php(26): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Category->category()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 04:09:52 --> Undefined variable: imageName
+in APPPATH\Controllers\product.php on line 23.
+ 1 APPPATH\Controllers\product.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: imageName', 'APPPATH\\Controllers\\product.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\product->products()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\product))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 04:10:19 --> Undefined variable: imageName
+in APPPATH\Controllers\product.php on line 23.
+ 1 APPPATH\Controllers\product.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: imageName', 'APPPATH\\Controllers\\product.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\product->products()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\product))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 04:19:35 --> Undefined variable: imageName
+in APPPATH\Controllers\product.php on line 23.
+ 1 APPPATH\Controllers\product.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: imageName', 'APPPATH\\Controllers\\product.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\product->products()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\product))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 04:20:30 --> Undefined variable: imageName
+in APPPATH\Controllers\product.php on line 23.
+ 1 APPPATH\Controllers\product.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: imageName', 'APPPATH\\Controllers\\product.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\product->products()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\product))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 05:22:00 --> Undefined index: product_image
+in APPPATH\Views\admin\pages\display.php on line 151.
+ 1 APPPATH\Views\admin\pages\display.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: product_image', 'APPPATH\\Views\\admin\\pages\\display.php', 151, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\display.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/display', [], true)
+ 5 APPPATH\Controllers\Admin.php(199): view('admin/pages/display', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->display()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

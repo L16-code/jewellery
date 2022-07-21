@@ -67,7 +67,7 @@
 
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">CATEGORY </h5>
+                            <h5 class="card-title">SUBCATEGORY </h5>
 
                             <!-- General Form Elements -->
                             <form action="maincategory" method="post">

@@ -69,7 +69,7 @@
                             <h5 class="card-title">CATEGORY </h5>
 
                             <!-- General Form Elements -->
-                            <form action="maincategory" method="post">
+                            <form action="maincategory1" method="post">
                                 <div class="row mb-3">
                                     <label for="inputText" class="col-sm-2 col-form-label">category-name</label>
                                     <div class="col-sm-10">

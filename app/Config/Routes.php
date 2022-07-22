@@ -78,8 +78,11 @@ $routes->get('/product-upload', 'Admin::product');
 $routes->get('/display', 'Admin::display');
 $routes->get('/category', 'Admin::category');
 $routes->get('/subcategory', 'Admin::subcategory');
+$routes->get('/categorytable', 'Admin::categorytable');
 
 
+$routes->get('/edit/(:num)', 'product::edit/$1');
+$routes->put('/update/(:num)', 'product::update/$1');
 // $routes->get('/checksession', 'Admin::session');
 
 $routes->post('/maincategory', 'Category::Subcategory');
@@ -90,8 +93,8 @@ $routes->post('/productsadd', 'product::products');
 
 // $routes->post('/mcategory', 'Category::category');
 
-$routes->post('/deleteproduct', 'deleteproduct::delete_product');
-
+// $routes->post('/deleteproduct', 'product::delete');
+$routes->get('/delete/(:num)', 'product::delete/$1');
 
 
 

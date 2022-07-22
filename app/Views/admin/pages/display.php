@@ -151,7 +151,10 @@
                                             <td><img src="public/uploads/<?php echo ($value['product_img']); ?>" height="80px" width="150px" /></td>
                                             
                                             <!-- <td><button type="submit" formaction="products-update" class="form-control">Update</button></td> -->
-                                            <td><button type="submit" formaction="" class="form-control">Delete</button></td>
+                                            <!-- <td><button type="submit" formaction="" class="form-control">Delete</button></td> -->
+                                            <td> <a href="<?= base_url('edit/'.$value['id']); ?>" class="btn btn-primary btn-sm">Edit</a> </td>
+                                            <td> <a href="<?= base_url('delete/'.$value['id']); ?>" class="btn btn-primary btn-sm">Delete</a> </td>
+                                            <!-- <td><button type="submit"formaction="" class="form-control">Delete</button></td> -->
                                         </form>
                                     <?php endforeach; ?>
                                     </tr>

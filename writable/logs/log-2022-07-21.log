@@ -454,3 +454,14 @@ in APPPATH\Views\admin\pages\display.php on line 151.
  7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
  8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 23:14:31 --> Undefined variable: name
+in APPPATH\Views\admin\pages\edit.php on line 135.
+ 1 APPPATH\Views\admin\pages\edit.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: name', 'APPPATH\\Views\\admin\\pages\\edit.php', 135, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/edit', [], true)
+ 5 APPPATH\Controllers\product.php(39): view('admin/pages/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\product->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\product))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

@@ -177,6 +177,13 @@ class Admin extends BaseController
         return view('admin/pages/users-profile');
 
     }
+    public function categorytable()
+    {
+        $category = new \App\Models\CategoryModel();
+        $data = $category->findAll();
+        return view('admin/pages/categorytable', ['name' => $data]);
+
+    }
     public function product()
     {
         $category = new \App\Models\CategoryModel();
@@ -190,12 +197,6 @@ class Admin extends BaseController
     {
         $product = new \App\Models\ProductModel();
         $data = $product->findAll();
-        // return view('admin/pages/display', ['name' => $data]);
-        // $category = new \App\Models\CategoryModel();
-        // $data1 = $category->findAll();
-        // $subcategory = new \App\Models\SubcategoryModel();
-        // $data2 = $subcategory->findAll();
-        // return view('admin/pages/display', ['name2' => $data]);
         return view('admin/pages/display', ['name' => $data]);
 
 

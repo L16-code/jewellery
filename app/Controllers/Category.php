@@ -49,6 +49,11 @@ class Category extends BaseController
             return redirect('category');
         }
     }
+    // public function displaycategory()
+    // {
+    //     $category = new \App\Models\CategoryModel();
+
+    // }
     // public function subCategory()
     // {
     //     $name = $this->request->getVar("subname");

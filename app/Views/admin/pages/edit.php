@@ -78,7 +78,7 @@
                 </p>
                 <hr class="bg-light ">
                 <p class="pt-2 pb-2 text-center">
-                    <a href="categorytable" class="text-decoration-none"><span class="text-light">Browse Categories</span></a>
+                    <a href="subcategories.php" class="text-decoration-none"><span class="text-light">Browse Categories</span></a>
                 </p>
                 <hr class="bg-light ">
                 <p class="pt-2 pb-2 text-center">
@@ -110,7 +110,7 @@
                         </p>
                     </div> -->
                     <div class="col-sm-8">
-                        <h1 class="text-center pt-4 pb-5"><strong>Add Products</strong></h1>
+                        <h1 class="text-center pt-4 pb-5"><strong>Edit Products</strong></h1>
                         <hr class="w-25 mx-auto">
                     </div>
                     <!-- <div class="col-sm-2">
@@ -120,18 +120,18 @@
                     </div> -->
                 </div>
                 <div class="container mx-auto">
-                    <form action="productsadd" id="the-form" class="form-control w-50 mx-auto" enctype="multipart/form-data" method="post">
-
+                    <form action="<?= base_url('update/'.$product['id']); ?>" id="the-form" class="form-control w-50 mx-auto" enctype="multipart/form-data" method="post">
+                    <input type="hidden" name="_method" value="PUT" />
                         <label class="pt-4 pb-2 text-center">Enter product name</label>
-                        <input type="text" class="form-control" value="<?php /*echo $_POST['pname'] */ ?>" id="name" name="pname" placeholder="Enter Product name">
+                        <input type="text" class="form-control" value="<?= $product['product_name'];?>" id="name" name="pname" placeholder="Enter Product name">
                         <label class="pt-4 pb-2 text-center">Enter product price</label>
-                        <input type="text" class="form-control" value="<?php /*echo $_POST['price']*/ ?>" id="prprice" name="price" placeholder="Enter Product price">
+                        <input type="text" class="form-control" value="<?= $product['product_price'];?>" id="prprice" name="price" placeholder="Enter Product price">
                         <label class="pt-4 pb-2 text-center">Enter quantity</label>
-                        <input type="text" class="form-control" value="<?php /*echo $_POST['qty'] */ ?>" id="qty" name="qty" placeholder="Enter quantity">
+                        <input type="text" class="form-control" value="<?= $product['product_qty'];?>" id="qty" name="qty" placeholder="Enter quantity">
 
                         <label class="pt-4 pb-2 text-center" for="categories">Choose a category</label>
-                        <select class="form-control" id="categories" name="categories">
-                            <?php
+                        <select class="form-control" value="<?= $product['category'];?>"id="categories" name="categories">
+                        <?php
                             foreach ($name as $row) {
                                 echo '<option value="' .$row["category_name"] . '">' .$row["category_name"] . '</option>';
                             }
@@ -139,7 +139,7 @@
                         </select>
 
                         <label class="pt-4 pb-2 text-center" for="subcategories">Choose a sub-category</label>
-                        <select class="form-control" id="subcategories" name="subcategories">
+                        <select class="form-control" value="<?= $product['subcategory'];?>"id="subcategories" name="subcategories">
                         <?php
                             foreach ($subname as $row) {
                                 echo '<option value="' .$row["subcategory_name"] . '">' .$row["subcategory_name"] . '</option>';
@@ -148,7 +148,7 @@
                         </select>
                         <br>
                         <p class="text-danger pt-2"><strong>Upload product images</strong></p>
-                        <input type="file" name="image" class="form-control" multiple>
+                        <input type="file" value="<?= $product['product_img'];?>" name="image" class="form-control" multiple>
                         <p>
 
                         </p><br>
@@ -156,7 +156,7 @@
                             <div class="hide"><img class="mx-auto" style="height: 50px; width: 50px;" src="/test123/products-images/ajax-loader.gif"></div>
                         </div>
                         <br>
-                        <button type="submit" class="btn btn-primary form-control" id="btnSubmit">Add product</button>
+                        <button type="submit" class="btn btn-primary form-control" id="btnSubmit">edit product</button>
                         <br><br>
                         <div class="error"></div>
                         <div class="success"></div>

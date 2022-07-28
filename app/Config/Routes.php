@@ -39,18 +39,23 @@ $routes->get('/', 'Home::index');
 $routes->get('/index', 'Home::index');
 $routes->get('/about', 'Home::about');
 $routes->get('/contact', 'Home::contact');
-$routes->get('/cart', 'Home::cart');
+// $routes->get('/cart', 'Home::cart');
 $routes->get('/checkout', 'Home::checkout');
 $routes->get('/index_2', 'Home::index_2');
 $routes->get('/news', 'Home::news');
 $routes->get('/shop', 'Home::shop');
 $routes->get('/single-news', 'Home::single_news');
-$routes->get('/single-product', 'Home::single_product');
+$routes->get('/single-product/(:num)', 'Home::single_product/$1');
 $routes->get('/login', 'Home::login');
 $routes->get('/register', 'Home::register');
 
 
+// $routes->get('/single_product', 'product::single_product');
 
+// cart system routes
+$routes->get('/buy/(:num)', 'Cart::buy/$1');
+$routes->get('/cart', 'Cart::cart');
+// end of cart system routes
 
 // routes for user login
 $routes->post('/register', 'Register::userSignup');
@@ -79,11 +84,19 @@ $routes->get('/display', 'Admin::display');
 $routes->get('/category', 'Admin::category');
 $routes->get('/subcategory', 'Admin::subcategory');
 $routes->get('/categorytable', 'Admin::categorytable');
+$routes->get('/subcategorytable', 'Admin::subcategorytable');
 
-
+// edit routes of the product page
 $routes->get('/edit/(:num)', 'product::edit/$1');
 $routes->put('/update/(:num)', 'product::update/$1');
-// $routes->get('/checksession', 'Admin::session');
+// end of the edit routes of the product page
+
+
+$routes->get('/catedit/(:num)', 'Category::edit/$1');
+
+
+
+
 
 $routes->post('/maincategory', 'Category::Subcategory');
 $routes->post('/maincategory1', 'Category::category');

@@ -1,0 +1,77 @@
+CRITICAL - 2022-07-26 01:35:55 --> Undefined index: id
+in APPPATH\Views\admin\pages\edit.php on line 123.
+ 1 APPPATH\Views\admin\pages\edit.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Views\\admin\\pages\\edit.php', 123, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/edit', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('admin/pages/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->single_product('11')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 01:38:02 --> Undefined index: product_img
+in APPPATH\Views\user\pages\single-product.php on line 89.
+ 1 APPPATH\Views\user\pages\single-product.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: product_img', 'APPPATH\\Views\\user\\pages\\single-product.php', 89, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\single-product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pages/single-product', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('user/pages/single-product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->single_product('11')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 01:42:45 --> Undefined index: product_name
+in APPPATH\Views\user\pages\single-product.php on line 94.
+ 1 APPPATH\Views\user\pages\single-product.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: product_name', 'APPPATH\\Views\\user\\pages\\single-product.php', 94, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\single-product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pages/single-product', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('user/pages/single-product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->single_product('11')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 01:44:43 --> Undefined index: product_img
+in APPPATH\Views\user\pages\single-product.php on line 134.
+ 1 APPPATH\Views\user\pages\single-product.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: product_img', 'APPPATH\\Views\\user\\pages\\single-product.php', 134, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\single-product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pages/single-product', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('user/pages/single-product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->single_product('11')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 01:47:13 --> Undefined variable: product
+in APPPATH\Views\user\pages\single-product.php on line 89.
+ 1 APPPATH\Views\user\pages\single-product.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: product', 'APPPATH\\Views\\user\\pages\\single-product.php', 89, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\single-product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pages/single-product', [], true)
+ 5 APPPATH\Controllers\Home.php(55): view('user/pages/single-product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->single_product('11')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 03:55:06 --> Undefined index: product_img
+in APPPATH\Views\user\pages\single-product.php on line 89.
+ 1 APPPATH\Views\user\pages\single-product.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: product_img', 'APPPATH\\Views\\user\\pages\\single-product.php', 89, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\single-product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pages/single-product', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('user/pages/single-product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->single_product('16')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 03:56:22 --> Undefined index: product_img
+in APPPATH\Views\user\pages\single-product.php on line 89.
+ 1 APPPATH\Views\user\pages\single-product.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: product_img', 'APPPATH\\Views\\user\\pages\\single-product.php', 89, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\single-product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pages/single-product', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('user/pages/single-product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->single_product('16')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

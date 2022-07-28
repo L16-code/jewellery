@@ -35,7 +35,15 @@
 </head>
 
 <body>
-
+        <?php
+        include 'check_session_user.php';
+        class check1 extends check
+        {
+            //....
+        }
+        $obj = new check1;
+        $obj->check_login();
+        ?>
     <!--PreLoader-->
     <div class="loader">
         <div class="loader-inner">

@@ -64,7 +64,8 @@
                                 <thead>
                                     <tr>
                                         <th class="text-left">id</th>
-                                        <th class="text-left">Category</th>
+                                        <th class="text-left">Sub Category</th>
+                                        <th class="text-left">Main Category</th>
                                         <th class="text-left">Action</th>
                                     </tr>
                                 </thead>
@@ -72,8 +73,17 @@
                                     <?php foreach ($name as $key => $value) : ?>
                                         <tr>
                                             <td><?php echo ($value['id']); ?></td>
-                                            <td><?php echo ($value['category_name']); ?></td>
-                                            <td><a href="<?php echo base_url('catedit/' . $value['id']); ?>">Edit</a></td>
+                                            <td><?php echo ($value['subcategory_name']); ?></td>
+                                            <td>
+                                                <?php foreach ($maincategory as $key => $val) : ?>
+                                                    <?php 
+                                                        if ($val['id'] == $value['category_id']){
+                                                            echo ($val['category_name']);
+                                                        }
+                                                    ?>
+                                                <?php endforeach; ?>
+                                            </td>
+                                            <td><a href="<?php echo base_url('edit/' . $value['id']); ?>">Edit</a></td>
                                         </tr>
                                     <?php endforeach; ?>
                                 </tbody>

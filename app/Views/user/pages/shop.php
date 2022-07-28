@@ -97,17 +97,19 @@
             </div>
 
 			<div class="row product-lists">
+            <?php foreach ($name as $key => $value) : ?>
 				<div class="col-lg-4 col-md-6 text-center strawberry">
 					<div class="single-product-item">
 						<div class="product-image">
-							<a href="single-product"><img src="public/user/assets/img/products/product-img-1.jpg" alt=""></a>
+							<a href="<?= base_url('single-product/'.$value['id']); ?>"><img src="public/uploads/<?php echo ($value['product_img']); ?>" alt=""></a>
 						</div>
-						<h3>Strawberry</h3>
-						<p class="product-price"><span>Per Kg</span> 85$ </p>
-						<a href="cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+						<h3><?php echo($value['product_name']); ?></h3>
+						<p class="product-price"><span>Per piece</span><?php echo ($value['product_price']); ?>&#x20B9 </p>
+						<a href="<?php echo base_url('buy/' . $value['id']); ?>" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 text-center berry">
+                <?php endforeach; ?>
+				<!-- <div class="col-lg-4 col-md-6 text-center berry">
 					<div class="single-product-item">
 						<div class="product-image">
 							<a href="single-product"><img src="public/user/assets/img/products/product-img-2.jpg" alt=""></a>
@@ -156,7 +158,7 @@
 						<p class="product-price"><span>Per Kg</span> 80$ </p>
 						<a href="cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
-				</div>
+				</div> -->
 			</div>
 
 			<div class="row">

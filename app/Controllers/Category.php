@@ -49,6 +49,13 @@ class Category extends BaseController
             return redirect('category');
         }
     }
+
+    public function edit($id=null)
+    {
+        $category = new \App\Models\CategoryModel();
+        $data =$category->find($id);
+        return view('admin/pages/catedit',['category'=>$data]);
+    }
     // public function displaycategory()
     // {
     //     $category = new \App\Models\CategoryModel();

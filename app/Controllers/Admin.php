@@ -184,6 +184,15 @@ class Admin extends BaseController
         return view('admin/pages/categorytable', ['name' => $data]);
 
     }
+    public function subcategorytable()
+    {
+        $subcategory = new \App\Models\SubcategoryModel();
+        $data = $subcategory->findAll();
+        $category = new \App\Models\CategoryModel();
+        $data1 = $category->findAll();
+        return view('admin/pages/subcategorytable', ['name' => $data,'maincategory'=>$data1]);
+
+    }
     public function product()
     {
         $category = new \App\Models\CategoryModel();

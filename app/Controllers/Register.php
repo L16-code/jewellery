@@ -20,16 +20,41 @@ class Register extends BaseController
     {
         // var_dump($_POST);
         // die();
-        helper(['register', 'url']);
-        if (!$this->validate([
-            'username' => ['label' => 'Username', 'rules' => 'required'],
-            'password' => ['label' => 'Password', 'rules' => 'required|min_length[10]|alpha_numeric_punct'],
-        ])) {
-            return view('user/pages/'."register", [
-                'validation' => $this->validator,
-            ]);
-        }
-        $name = $this->request->getVar("name");
+    //     helper(['register', 'url']);
+    //     if (!$this->validate([
+    //         'username' => ['label' => 'Username', 'rules' => 'required'],
+    //         'password' => ['label' => 'Password', 'rules' => 'required|min_length[5]'],
+    //     ])) {
+    //         return view('user/pages/'."register", [
+    //             'validation' => $this->validator,
+    //         ]);
+    //     }
+    //     $name = $this->request->getVar("name");
+    //     $username = $this->request->getVar("username");
+    //     $email = $this->request->getVar("email");
+    //     $password = $this->request->getVar("password");
+
+    //     $values = [
+    //         'customer_name' => $name,
+    //         'customer_email' => $email,
+    //         'customer_password' => md5($password),
+    //         'customer_username' => $username,
+    //     ];
+
+    //     $userModel = new \App\Models\UserModel();
+    //     $query = $userModel->insert($values);
+    //     if(!$query){
+    //         // return redirect()->back()->with('fail','Something wrong');
+    //         // return view('user/login/registration'); 
+    //         return redirect()->back();
+    //     }else{
+    //         // return redirect('index');
+    //         //echo " successfully registered ";
+    //         return view('user/pages/login'); 
+    //     }
+    //     // return view('user/login/' . "registration");
+    // }
+    $name = $this->request->getVar("name");
         $username = $this->request->getVar("username");
         $email = $this->request->getVar("email");
         $password = $this->request->getVar("password");
@@ -40,19 +65,16 @@ class Register extends BaseController
             'customer_password' => md5($password),
             'customer_username' => $username,
         ];
-
         $userModel = new \App\Models\UserModel();
         $query = $userModel->insert($values);
-        if(!$query){
+        if (!$query) {
             // return redirect()->back()->with('fail','Something wrong');
             // return view('user/login/registration'); 
             return redirect()->back();
-        }else{
-            // return redirect('index');
-            //echo " successfully registered ";
-            return view('user/pages/login'); 
+        } else {
+            return redirect('login');
+            // return view('user/login/login'); 
         }
-        // return view('user/login/' . "registration");
     }
 }
 ?>

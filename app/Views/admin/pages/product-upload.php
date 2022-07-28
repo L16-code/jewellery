@@ -90,7 +90,7 @@
                 </p>
                 <hr class="bg-light ">
                 <p class="pt-2 pb-2 text-center">
-                    <a href="new-user-requests.php" class="text-decoration-none"><span class="text-light">New user requests</span></a>
+                    <a href="subcategorytable" class="text-decoration-none"><span class="text-light">Browse SubCategories</span></a>
                 </p>
                 <hr class="bg-light ">
                 <p class="pt-2 pb-2 text-center">

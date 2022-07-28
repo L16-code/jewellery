@@ -33,7 +33,15 @@
 
 </head>
 <body>
-	
+    <?php
+    include "app/Views/user/pages/check_session_user.php";
+    class check1 extends check
+    {
+        //....
+    }
+    $obj = new check1;
+    $obj->check_login();
+    ?>
 	<!--PreLoader-->
     <div class="loader">
         <div class="loader-inner">
@@ -157,7 +165,7 @@
 						</div>
 					</div>
 
-					<div class="coupon-section">
+					<!-- <div class="coupon-section">
 						<h3>Apply Coupon</h3>
 						<div class="coupon-form-wrap">
 							<form action="index">
@@ -165,7 +173,7 @@
 								<p><input type="submit" value="Apply"></p>
 							</form>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>

@@ -148,12 +148,12 @@
                         </select>
                         <br>
                         <p class="text-danger pt-2"><strong>Upload product images</strong></p>
-                        <input type="file" value="<?= $product['product_img'];?>" name="image" class="form-control" multiple>
+                        <input type="file" value="" name="image" class="form-control" multiple>
                         <p>
 
                         </p><br>
                         <div class="container w-25 mx-auto">
-                            <div class="hide"><img class="mx-auto" style="height: 50px; width: 50px;" src="/test123/products-images/ajax-loader.gif"></div>
+                            <div class="hide"><img class="mx-auto" style="height: 50px; width: 50px;" src="<?= $product['product_img'];?>"></div>
                         </div>
                         <br>
                         <button type="submit" class="btn btn-primary form-control" id="btnSubmit">edit product</button>

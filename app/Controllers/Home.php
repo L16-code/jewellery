@@ -40,15 +40,22 @@ class Home extends BaseController
     }
     public function shop()
     {
-        return view('user/pages/'."shop");
+        $product = new \App\Models\ProductModel();
+        $data = $product->findAll();
+        return view('user/pages/shop', ['name' => $data]);
     }
     public function single_news()
     {
         return view('user/pages/'."single-news");
     }
-    public function single_product()
+    public function single_product($id = null)
     {
-        return view('user/pages/'."single-product");
+        // $similar = new \App\Models\ProductModel();
+        // $data1 = $similar->findAll();
+        $product = new \App\Models\ProductModel();
+        $data =$product->find($id);
+        return view('user/pages/single-product',['product'=>$data]);
+    
     }
     public function login()
     {

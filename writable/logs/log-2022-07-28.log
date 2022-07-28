@@ -1,0 +1,282 @@
+CRITICAL - 2022-07-28 13:15:40 --> Illegal string offset 'product_img'
+in APPPATH\Views\user\pages\single-product.php on line 90.
+ 1 APPPATH\Views\user\pages\single-product.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'product_img\'', 'APPPATH\\Views\\user\\pages\\single-product.php', 90, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\single-product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pages/single-product', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('user/pages/single-product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->single_product('16')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 13:21:14 --> Illegal string offset 'product_img'
+in APPPATH\Views\user\pages\single-product.php on line 90.
+ 1 APPPATH\Views\user\pages\single-product.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'product_img\'', 'APPPATH\\Views\\user\\pages\\single-product.php', 90, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\single-product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pages/single-product', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('user/pages/single-product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->single_product('16')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 13:21:15 --> Illegal string offset 'product_img'
+in APPPATH\Views\user\pages\single-product.php on line 90.
+ 1 APPPATH\Views\user\pages\single-product.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'product_img\'', 'APPPATH\\Views\\user\\pages\\single-product.php', 90, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\single-product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pages/single-product', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('user/pages/single-product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->single_product('16')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 13:21:15 --> Illegal string offset 'product_img'
+in APPPATH\Views\user\pages\single-product.php on line 90.
+ 1 APPPATH\Views\user\pages\single-product.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'product_img\'', 'APPPATH\\Views\\user\\pages\\single-product.php', 90, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\single-product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pages/single-product', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('user/pages/single-product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->single_product('16')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 13:21:16 --> Illegal string offset 'product_img'
+in APPPATH\Views\user\pages\single-product.php on line 90.
+ 1 APPPATH\Views\user\pages\single-product.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'product_img\'', 'APPPATH\\Views\\user\\pages\\single-product.php', 90, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\single-product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pages/single-product', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('user/pages/single-product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->single_product('16')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 13:21:16 --> Illegal string offset 'product_img'
+in APPPATH\Views\user\pages\single-product.php on line 90.
+ 1 APPPATH\Views\user\pages\single-product.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'product_img\'', 'APPPATH\\Views\\user\\pages\\single-product.php', 90, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\single-product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pages/single-product', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('user/pages/single-product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->single_product('16')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 13:21:16 --> Illegal string offset 'product_img'
+in APPPATH\Views\user\pages\single-product.php on line 90.
+ 1 APPPATH\Views\user\pages\single-product.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'product_img\'', 'APPPATH\\Views\\user\\pages\\single-product.php', 90, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\single-product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pages/single-product', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('user/pages/single-product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->single_product('16')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 13:22:24 --> Illegal string offset 'product_img'
+in APPPATH\Views\user\pages\single-product.php on line 90.
+ 1 APPPATH\Views\user\pages\single-product.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'product_img\'', 'APPPATH\\Views\\user\\pages\\single-product.php', 90, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\single-product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pages/single-product', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('user/pages/single-product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->single_product('16')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 13:22:38 --> Illegal string offset 'img'
+in APPPATH\Views\user\pages\single-product.php on line 90.
+ 1 APPPATH\Views\user\pages\single-product.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'img\'', 'APPPATH\\Views\\user\\pages\\single-product.php', 90, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\single-product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pages/single-product', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('user/pages/single-product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->single_product('16')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 13:23:03 --> Illegal string offset 'product_name'
+in APPPATH\Views\user\pages\single-product.php on line 90.
+ 1 APPPATH\Views\user\pages\single-product.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'product_name\'', 'APPPATH\\Views\\user\\pages\\single-product.php', 90, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\single-product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pages/single-product', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('user/pages/single-product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->single_product('16')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 13:23:30 --> Illegal string offset 'product_img'
+in APPPATH\Views\user\pages\single-product.php on line 91.
+ 1 APPPATH\Views\user\pages\single-product.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'product_img\'', 'APPPATH\\Views\\user\\pages\\single-product.php', 91, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\single-product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pages/single-product', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('user/pages/single-product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->single_product('16')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 13:24:50 --> Illegal string offset 'product_img'
+in APPPATH\Views\user\pages\single-product.php on line 90.
+ 1 APPPATH\Views\user\pages\single-product.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'product_img\'', 'APPPATH\\Views\\user\\pages\\single-product.php', 90, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\single-product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pages/single-product', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('user/pages/single-product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->single_product('16')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 14:12:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Cart.php on line 23.
+ 1 APPPATH\Controllers\Cart.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Cart.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Cart->cart()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 14:17:17 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Cart.php on line 23.
+ 1 APPPATH\Controllers\Cart.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Cart.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Cart->cart()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 14:17:18 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Cart.php on line 23.
+ 1 APPPATH\Controllers\Cart.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Cart.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Cart->cart()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 14:17:18 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Cart.php on line 23.
+ 1 APPPATH\Controllers\Cart.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Cart.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Cart->cart()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 14:17:18 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Cart.php on line 23.
+ 1 APPPATH\Controllers\Cart.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Cart.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Cart->cart()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 14:17:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Cart.php on line 23.
+ 1 APPPATH\Controllers\Cart.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Cart.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Cart->cart()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 14:17:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Cart.php on line 23.
+ 1 APPPATH\Controllers\Cart.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Cart.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Cart->cart()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 14:17:52 --> include(app/Views/user/session/check_session_user.php): failed to open stream: No such file or directory
+in APPPATH\Views\user\pages\checkout.php on line 39.
+ 1 APPPATH\Views\user\pages\checkout.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(app/Views/user/session/check_session_user.php): failed to open stream: No such file or directory', 'APPPATH\\Views\\user\\pages\\checkout.php', 39, [])
+ 2 APPPATH\Views\user\pages\checkout.php(39): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\checkout.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pages/checkout', [], true)
+ 6 APPPATH\Controllers\Home.php(27): view('user/pages/checkout')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->checkout()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 15:09:50 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Cart.php on line 23.
+ 1 APPPATH\Controllers\Cart.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Cart.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Cart->cart()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 15:59:59 --> Undefined index: price
+in APPPATH\Controllers\Cart.php on line 49.
+ 1 APPPATH\Controllers\Cart.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: price', 'APPPATH\\Controllers\\Cart.php', 49, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Cart->buy('11')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-28 16:02:44 --> Unknown column 'orders.product_id' in 'on clause'
+CRITICAL - 2022-07-28 16:02:44 --> Unknown column 'orders.product_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'97b057fc978279ed87f563ed5bf95485\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'97b057fc978279ed87f563ed5bf95485\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'97b057fc978279ed87f563ed5bf95485\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = :cart_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Cart.php(58): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Cart->buy('11')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-28 16:06:31 --> Unknown column 'orders.product_id' in 'on clause'
+CRITICAL - 2022-07-28 16:06:31 --> Unknown column 'orders.product_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'97\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'97\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'97\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = :cart_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Cart.php(88): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Cart->buy('11')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-28 16:06:33 --> Unknown column 'orders.product_id' in 'on clause'
+CRITICAL - 2022-07-28 16:06:33 --> Unknown column 'orders.product_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'97\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'97\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'97\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = :cart_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Cart.php(88): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Cart->buy('11')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

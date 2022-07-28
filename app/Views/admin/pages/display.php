@@ -142,13 +142,13 @@
                                 <?php foreach ($name as $key => $value) : ?>
                                     <tr>
                                         <form action="deleteproduct" method="post" id="the-form" enctype="multipart/form-data">
-                                            <td><input type="text" class="form-control" name="category" value="<?php echo ($value['category']); ?>"></td>
-                                            <td><input type="text" class="form-control" name="subcategory" value="<?php echo ($value['subcategory']); ?>"></td>
+                                            <td><?php echo ($value['category']); ?></td>
+                                            <td><?php echo ($value['subcategory']); ?></td>
                                             <!-- <input type="hidden" class="form-control" id="pid" name="pid" value="" readonly> -->
-                                            <td><input type="text" class="form-control" name="product" value="<?php echo ($value['product_name']); ?>"></td>
-                                            <td><input type="number" class="form-control" name="quantity" value="<?php echo ($value['product_qty']); ?>"></td>
-                                            <td><input type="number" class="form-control" name="price" value="<?php echo ($value['product_price']); ?>"></td>
-                                            <td><img src="public/uploads/<?php echo ($value['product_img']); ?>" height="80px" width="150px" /></td>
+                                            <td><?php echo ($value['product_name']); ?></td>
+                                            <td><?php echo ($value['product_qty']); ?></td>
+                                            <td><?php echo ($value['product_price']); ?></td>
+                                            <td><img src="public/uploads/<?php echo ($value['product_img']); ?>" height="100px" width="150px" /></td>
                                             
                                             <!-- <td><button type="submit" formaction="products-update" class="form-control">Update</button></td> -->
                                             <!-- <td><button type="submit" formaction="" class="form-control">Delete</button></td> -->

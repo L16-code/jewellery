@@ -104,7 +104,7 @@
 							<a href="<?= base_url('single-product/'.$value['id']); ?>"><img src="public/uploads/<?php echo ($value['product_img']); ?>" alt=""></a>
 						</div>
 						<h3><?php echo($value['product_name']); ?></h3>
-						<p class="product-price"><span>Per piece</span><?php echo ($value['product_price']); ?>&#x20B9 </p>
+						<p class="product-price"><span>Per piece </span> &#x20B9 <?php echo ($value['product_price']); ?> </p>
 						<a href="<?php echo base_url('buy/' . $value['id']); ?>" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
 				</div>

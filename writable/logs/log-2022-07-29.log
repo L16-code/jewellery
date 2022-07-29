@@ -1,0 +1,184 @@
+ERROR - 2022-07-29 02:09:15 --> Unknown column 'orders.product_id' in 'on clause'
+CRITICAL - 2022-07-29 02:09:15 --> Unknown column 'orders.product_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'0bf9f75e6cca4b1e72703bd0bab9398a\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'0bf9f75e6cca4b1e72703bd0bab9398a\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'0bf9f75e6cca4b1e72703bd0bab9398a\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = :cart_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Cart.php(58): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Cart->buy('15')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-29 02:54:35 --> Unknown column 'orders.product_id' in 'on clause'
+CRITICAL - 2022-07-29 02:54:35 --> Unknown column 'orders.product_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'98\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'98\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'98\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = :cart_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Cart.php(88): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Cart->buy('15')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-29 02:54:37 --> Unknown column 'orders.product_id' in 'on clause'
+CRITICAL - 2022-07-29 02:54:37 --> Unknown column 'orders.product_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'98\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'98\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'98\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = :cart_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Cart.php(88): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Cart->buy('15')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-29 02:54:37 --> Unknown column 'orders.product_id' in 'on clause'
+CRITICAL - 2022-07-29 02:54:37 --> Unknown column 'orders.product_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'98\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'98\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'98\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = :cart_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Cart.php(88): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Cart->buy('15')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-29 02:54:37 --> Unknown column 'orders.product_id' in 'on clause'
+CRITICAL - 2022-07-29 02:54:37 --> Unknown column 'orders.product_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'98\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'98\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'98\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = :cart_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Cart.php(88): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Cart->buy('15')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-29 02:54:37 --> Unknown column 'orders.product_id' in 'on clause'
+CRITICAL - 2022-07-29 02:54:37 --> Unknown column 'orders.product_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'98\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'98\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'98\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = :cart_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Cart.php(88): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Cart->buy('15')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-29 02:54:38 --> Unknown column 'orders.product_id' in 'on clause'
+CRITICAL - 2022-07-29 02:54:38 --> Unknown column 'orders.product_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'98\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'98\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = \'98\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `order`
+JOIN `product` ON `product`.`id` = `orders`.`product_id`
+WHERE `cart_id` = :cart_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Cart.php(88): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Cart->buy('15')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-29 02:55:35 --> Invalid file: user/product/cart.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/product/cart.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/product/cart', [], true)
+ 3 APPPATH\Controllers\Cart.php(91): view('user/product/cart', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Cart->buy('15')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

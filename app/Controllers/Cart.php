@@ -19,7 +19,7 @@ class Cart extends BaseController
         $fetch = $newsession->where('user_id', session('userid'))->where('order_status', 0)->first();
 
         $order->select('*');
-        $order->join('product', 'product.id = orders.product_id');
+        $order->join('product', 'product.id = order.product_id');
         $data = $order->where('cart_id', $fetch['id'])->get()->getResultArray();
         // $data['items'] = $order->findAll();
         return view('user/pages/cart', ['items' => $data]);
@@ -53,16 +53,10 @@ class Cart extends BaseController
                 $newsession->insert($data);
                 $order->insert($data2);
                 $order->select('*');
-                $order->join('product', 'product.id = orders.product_id');
+                $order->join('product', 'product.id = order.product_id');
                 $order->where('cart_id', $newid);
                 $data3 = $order->get()->getResultArray();
-                // return redirect()->to('cart')->with('items', $data3);
                 return view('user/pages/cart', ['items' => $data3]);
-                // die();
-                // $order->select('*');
-                // $subcategory->join('main_category', 'main_category.id = sub_category.category_id');
-                // $data = $subcategory->get()->getResultArray();
-                // return view('user/product/cart');
             } else {
                 
                 $pid = $order->where('cart_id', $fetch['id'])->where('product_id', $id)->first();
@@ -83,12 +77,12 @@ class Cart extends BaseController
                 }
                 
                 $order->select('*');
-                $order->join('product', 'product.id = orders.product_id');
+                $order->join('product', 'product.id = order.product_id');
                 // $order->where('cart_id', $fetch['id']);
                 $data3 = $order->where('cart_id', $fetch['id'])->get()->getResultArray();
                 // die(print_r($data3));
                 // return redirect('cart')->withInput(['items' => $data3]);
-                return view('user/product/cart', ['items' => $data3]);
+                return view('user/pages/cart', ['items' => $data3]);
                 // $hello = $newsession->findAll();
                 // die();
 

@@ -86,7 +86,7 @@
 			<div class="row">
 				<div class="col-md-5">
 					<div class="single-product-img">
-                    <img src="public/uploads/<?php echo ($product['product_img']); ?>" >
+                    <img src="<?= base_url('public/uploads/'.$product['product_img']) ?>" >
 					</div>
 				</div>
 				<div class="col-md-7">
